@@ -1,64 +1,53 @@
-# CLAUDE.md - Criminal Courts Technology Review
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is an **ArcKit architecture governance project** — not a software codebase. It generates architecture documents (markdown) for the Criminal Courts Technology & AI Reform programme, based on the Independent Review of the Criminal Courts (Leveson Review, 2025-2026).
+
+There is no build system, test suite, or application code. All work is done through ArcKit slash commands that generate governance artifacts.
+
+## How to Work in This Repository
+
+### ArcKit Slash Commands
+
+All artifacts are produced via `/arckit.*` commands. The recommended execution order follows the dependency matrix in `DEPENDENCY-MATRIX.md`:
+
+1. `/arckit.principles` — Architecture principles (foundation for everything)
+2. `/arckit.stakeholders` — Stakeholder analysis
+3. `/arckit.requirements` — Business and technical requirements
+4. `/arckit.risk` — Risk register
+5. Further commands depend on outputs from the above (see `DEPENDENCY-MATRIX.md` for M/R/O dependencies)
+
+### Key Conventions
+
+- **Document IDs**: All artifacts use the format `ARC-{PROJECT_ID}-{TYPE}-v{VERSION}.md` (e.g., `ARC-000-PRIN-v1.0.md`). Generate IDs using `.arckit/scripts/bash/generate-document-id.sh`.
+- **Global artifacts** (principles, etc.) go in `projects/000-global/`
+- **Project-specific artifacts** go in `projects/{PROJECT_ID}/`
+- **Templates** are in `.arckit/templates/` — always read the relevant template before generating a document
+- **Version** is in the `VERSION` file (currently 1.3.0) — include in generated document metadata
+- **External reference documents** (e.g., the Leveson Review PDF) are in `projects/000-global/external/`
+- **Policies** for import go in `projects/000-global/policies/`
+
+### MCP Integration
+
+The project has an AWS Knowledge MCP server configured (`.mcp.json`) for AWS service research via `/arckit.aws-research`.
 
 ## Project Context
 
-This project uses the **Independent Review of the Criminal Courts** (the Leveson Review, 2025-2026) as the basis for an architecture governance exercise. The review, chaired by Sir Brian Leveson, was commissioned by the Lord Chancellor to examine how criminal courts in England and Wales could be reformed and made more efficient.
-
-### The Problem
-
-The criminal justice system faces a crisis:
-- **77,000+ outstanding cases** in the Crown Court (nearly doubled in five years)
-- Some trials listed for **2029** due to backlog
-- The system is **fragmented** - police, CPS, courts, probation, and prisons operate with separate budgets, distinct accountability, and differing priorities
-- The **Common Platform** digital case management system rollout was troubled - 231 critical incidents, 3,011 missed notifications, and ~$22.5M in waste
-- Many magistrates lack **basic IT provision** (e.g., working laptops)
-- **37 critical court applications** need migrating from outdated, vulnerable data centres
-- Legacy systems (Libra Web, Court Store, Xhibit) need replacement
-
-### Technology & AI Recommendations (from the Review)
-
-The review's 180 recommendations (Part 2) include significant technology elements:
-- **AI for case preparation and disclosure** - summarising prosecution case details
-- **AI translation** of court proceedings for defendants and witnesses
-- **AI to enhance CPS decision-making**
-- **AI for operational efficiency** across police, CPS, courts, probation, and prisons
-- Continued development of **Common Platform** as central hub for all magistrate and Crown Court cases
-- **Opal** - new system to replace outdated criminal fines management
-- Integration improvements between Common Platform and **Police National Computer**
-- Migration of 37 applications to **modern, secure platforms**
-
-### Key Stakeholders
-
-- **Ministry of Justice (MoJ)** - policy owner
-- **HM Courts & Tribunals Service (HMCTS)** - operational delivery
-- **Crown Prosecution Service (CPS)** - prosecution technology
-- **Legal Aid Agency** - legal aid systems
-- **Police forces** - evidence and case file systems
-- **Judiciary** - judicial decision support
-- **Criminal Bar** - professional users
-- **Magistrates' Association** - magistrate technology
-- **Victims and witnesses** - end users of the justice system
-- **Defendants** - rights and access
+The criminal justice system in England and Wales faces a crisis: 77,000+ outstanding Crown Court cases, fragmented digital systems across police/CPS/courts/probation/prisons, and troubled Common Platform rollout. The Leveson Review's 180 recommendations include AI for case preparation and disclosure, AI translation, legacy system migration (37 critical applications), and cross-agency integration.
 
 ### Compliance Context
 
-- **UK Government** civilian department context (not MOD)
-- **GDS Service Standard** applies to public-facing digital services
-- **Technology Code of Practice (TCoP)** applies
-- **NCSC Cyber Assessment Framework** for security
-- **Algorithmic Transparency Recording Standard (ATRS)** for AI tools
-- **UK GDPR / Data Protection Act 2018** - criminal justice data is special category
-- **HM Treasury Green Book** for business case justification
-- **AI Playbook** for responsible AI deployment in government
+UK Government civilian department. Applicable frameworks: GDS Service Standard, Technology Code of Practice (TCoP), NCSC Cyber Assessment Framework, ATRS for AI tools, UK GDPR (criminal justice data is special category), HM Treasury Green Book, AI Playbook.
 
-## ArcKit Commands
+### Key Stakeholders
 
-This project is managed using ArcKit slash commands. Run `/arckit.principles` first, then `/arckit.requirements` for the specific project.
+MoJ (policy owner), HMCTS (operational delivery), CPS (prosecution technology), Legal Aid Agency, police forces, judiciary, Criminal Bar, Magistrates' Association, victims/witnesses, defendants.
 
 ## Key References
 
 - [Independent Review of the Criminal Courts - GOV.UK](https://www.gov.uk/guidance/independent-review-of-the-criminal-courts)
 - [Part 1 Report (July 2025)](https://www.gov.uk/government/publications/independent-review-of-the-criminal-courts-part-1)
 - [Part 2 Report (February 2026)](https://www.gov.uk/government/publications/independent-review-of-the-criminal-courts-part-2)
-- [HMCTS Digital Services Blog](https://insidehmcts.blog.gov.uk/category/digital-services/)
-- [Common Platform Case Study](https://www.gov.uk/government/case-studies/common-platform-a-modern-digital-case-management-system-for-the-criminal-justice-system)
