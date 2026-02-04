@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-04T00:00:00Z",
+  "generated": "2026-02-04T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v21-criminal-courts",
@@ -17,34 +17,46 @@
   ],
   "projects": [
     {
-      "id": "001",
+      "id": "001-criminal-courts-technology-and-ai-reform",
       "name": "Criminal Courts Technology & AI Reform",
       "documents": [
         {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md",
+          "title": "Requirements",
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
+        },
+        {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STKE-v1.0.md",
-          "title": "Stakeholder Drivers & Goals Analysis",
-          "category": "Stakeholders",
+          "title": "Stakeholder Drivers",
+          "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.0"
         },
         {
-          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md",
-          "title": "Business and Technical Requirements",
-          "category": "Requirements",
-          "documentId": "ARC-001-REQ-v1.0"
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md",
+          "title": "Strategic Outline Business Case",
+          "category": "Planning",
+          "documentId": "ARC-001-SOBC-v1.0"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-RISK-v1.0.md",
           "title": "Risk Register",
-          "category": "Risk",
+          "category": "Governance",
           "documentId": "ARC-001-RISK-v1.0"
         },
         {
-          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md",
-          "title": "Strategic Outline Business Case (SOBC)",
-          "category": "Business Case",
-          "documentId": "ARC-001-SOBC-v1.0"
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOW-v1.0.md",
+          "title": "Statement of Work",
+          "category": "Procurement",
+          "documentId": "ARC-001-SOW-v1.0"
         }
-      ]
+      ],
+      "diagrams": [],
+      "decisions": [],
+      "wardleyMaps": [],
+      "dataContracts": [],
+      "reviews": [],
+      "vendors": []
     }
   ]
 }
