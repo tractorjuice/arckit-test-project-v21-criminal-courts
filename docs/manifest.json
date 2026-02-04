@@ -25,6 +25,12 @@
           "title": "Stakeholder Drivers & Goals Analysis",
           "category": "Stakeholders",
           "documentId": "ARC-001-STKE-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md",
+          "title": "Business and Technical Requirements",
+          "category": "Requirements",
+          "documentId": "ARC-001-REQ-v1.0"
         }
       ]
     }
