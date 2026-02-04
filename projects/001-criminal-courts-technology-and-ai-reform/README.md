@@ -5,7 +5,9 @@ Created: 2026-02-04
 
 ## Overview
 
-[Project description to be added]
+The criminal justice system in England and Wales faces a crisis: 77,000+ outstanding Crown Court cases, fragmented digital systems across police/CPS/courts/probation/prisons, a troubled Common Platform rollout, and 37 critical legacy applications requiring modernisation. The Independent Review of the Criminal Courts (Leveson Review, 2025–2026) made 180 recommendations including AI for case preparation and disclosure, legacy system migration, cross-agency integration, and improved victim/witness experience.
+
+This project delivers the architecture governance artifacts for the technology and AI reform programme, covering AI-assisted disclosure, cross-agency interoperability, legacy modernisation, defence equality of arms, and victim/witness services. Applicable compliance frameworks: GDS Service Standard, TCoP, NCSC CAF, UK GDPR/DPA 2018 Part 3, AI Playbook, ATRS, HM Treasury Green Book.
 
 ## Workflow
 
@@ -97,12 +99,12 @@ Documents use standardized naming: `ARC-{PROJECT_ID}-{TYPE}-v{VERSION}.md`
 Track your progress through the workflow:
 
 **Discovery Phase:**
-- [ ] Stakeholder analysis complete
+- [x] Stakeholder analysis complete (ARC-001-STKE-v1.0)
 - [ ] Risk register created
 - [ ] Business case approved
 
 **Alpha Phase:**
-- [ ] Requirements defined
+- [x] Requirements defined (ARC-001-REQ-v1.0)
 - [ ] Data model designed
 - [ ] Vendor procurement started (if needed)
 
