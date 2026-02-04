@@ -15,5 +15,18 @@
       "isDefault": true
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "id": "001",
+      "name": "Criminal Courts Technology & AI Reform",
+      "documents": [
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STKE-v1.0.md",
+          "title": "Stakeholder Drivers & Goals Analysis",
+          "category": "Stakeholders",
+          "documentId": "ARC-001-STKE-v1.0"
+        }
+      ]
+    }
+  ]
 }
