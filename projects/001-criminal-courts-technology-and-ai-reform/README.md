@@ -100,8 +100,8 @@ Track your progress through the workflow:
 
 **Discovery Phase:**
 - [x] Stakeholder analysis complete (ARC-001-STKE-v1.0)
-- [ ] Risk register created
-- [ ] Business case approved
+- [x] Risk register created (ARC-001-RISK-v1.0)
+- [x] Business case drafted (ARC-001-SOBC-v1.0)
 
 **Alpha Phase:**
 - [x] Requirements defined (ARC-001-REQ-v1.0)

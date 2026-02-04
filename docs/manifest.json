@@ -37,6 +37,12 @@
           "title": "Risk Register",
           "category": "Risk",
           "documentId": "ARC-001-RISK-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md",
+          "title": "Strategic Outline Business Case (SOBC)",
+          "category": "Business Case",
+          "documentId": "ARC-001-SOBC-v1.0"
         }
       ]
     }
