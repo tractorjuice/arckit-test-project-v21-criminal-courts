@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-04T12:00:00Z",
+  "generated": "2026-02-04T17:30:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v21-criminal-courts",
@@ -49,6 +49,12 @@
           "title": "Statement of Work",
           "category": "Procurement",
           "documentId": "ARC-001-SOW-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRY-v1.0.md",
+          "title": "Project Story",
+          "category": "Other",
+          "documentId": "ARC-001-STRY-v1.0"
         }
       ],
       "diagrams": [],
