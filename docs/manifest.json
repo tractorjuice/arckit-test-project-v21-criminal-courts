@@ -67,6 +67,12 @@
           "title": "Platform Strategy Design",
           "category": "Strategy",
           "documentId": "ARC-001-PLAT-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRAT-v1.0.md",
+          "title": "Architecture Strategy",
+          "category": "Strategy",
+          "documentId": "ARC-001-STRAT-v1.0"
         }
       ],
       "diagrams": [],
