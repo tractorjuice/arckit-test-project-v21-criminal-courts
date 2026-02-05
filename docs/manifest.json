@@ -311,7 +311,7 @@
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
       "category": "Other",
-      "status": "live"
+      "status": "experimental"
     }
   ],
   "global": [
