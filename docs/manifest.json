@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-05T22:00:00Z",
+  "generated": "2026-02-05T22:30:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v21-criminal-courts",
@@ -429,6 +429,12 @@
           "title": "Data Protection Impact Assessment (DPIA)",
           "category": "Compliance",
           "documentId": "ARC-001-DPIA-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-TCOP-v1.1.md",
+          "title": "Technology Code of Practice (TCoP) Review (v1.1)",
+          "category": "Compliance",
+          "documentId": "ARC-001-TCOP-v1.1"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOW-v1.0.md",
