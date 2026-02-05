@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-04T17:30:00Z",
+  "generated": "2026-02-05T00:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v21-criminal-courts",
@@ -53,8 +53,20 @@
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRY-v1.0.md",
           "title": "Project Story",
-          "category": "Other",
+          "category": "Summary",
           "documentId": "ARC-001-STRY-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-ANLZ-v1.0.md",
+          "title": "Governance Quality Analysis",
+          "category": "Quality",
+          "documentId": "ARC-001-ANLZ-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-PLAT-v1.0.md",
+          "title": "Platform Strategy Design",
+          "category": "Strategy",
+          "documentId": "ARC-001-PLAT-v1.0"
         }
       ],
       "diagrams": [],
