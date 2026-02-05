@@ -239,13 +239,13 @@
       "path": "docs/guides/sow.md",
       "title": "Statement of Work Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "experimental"
     },
     {
       "path": "docs/guides/evaluate.md",
       "title": "Vendor Evaluation Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "experimental"
     },
     {
       "path": "docs/guides/dos.md",
@@ -269,7 +269,7 @@
       "path": "docs/guides/procurement.md",
       "title": "Vendor Procurement Guide",
       "category": "Procurement",
-      "status": "live"
+      "status": "experimental"
     },
     {
       "path": "docs/guides/aws-research.md",
@@ -287,7 +287,7 @@
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
       "category": "Other",
-      "status": "alpha"
+      "status": "beta"
     },
     {
       "path": "docs/guides/story.md",
