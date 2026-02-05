@@ -165,27 +165,21 @@ pie title Project Phase Time Distribution
 
 ```mermaid
 timeline
-    title Criminal Courts Technology & AI Reform — Key Milestones
-    2026-02-04 14:31 : Project Initiated
-                     : ArcKit governance framework applied
-    2026-02-04 14:57 : Architecture Principles Established
-                     : 23 principles, 7 categories
-                     : Leveson Review alignment verified
-    2026-02-04 15:31 : Stakeholder Analysis Complete
-                     : 15 stakeholders mapped
-                     : 10 goals, 6 measurable outcomes
-    2026-02-04 15:48 : Requirements Defined
-                     : 60 requirements (10 BR, 14 FR, 26 NFR, 4 DR, 6 INT)
-                     : 5 use cases, 8 user personas
-    2026-02-04 16:27 : Risk Register Established
-                     : 20 risks, Orange Book methodology
-                     : 35% residual risk reduction
-    2026-02-04 16:51 : Business Case Approved
-                     : Green Book 5-case SOBC
-                     : £285M investment, NPV £95M
-    2026-02-04 17:10 : Statement of Work Issued
-                     : Digital Marketplace procurement
-                     : 5 pillars, 11 milestones
+    title Criminal Courts Technology & AI Reform — Key Milestones (2026-02-04)
+    section 14.31
+        Project Initiated : ArcKit governance framework applied
+    section 14.57
+        Architecture Principles : 23 principles, 7 categories : Leveson Review alignment
+    section 15.31
+        Stakeholder Analysis : 15 stakeholders mapped : 10 goals, 6 outcomes
+    section 15.48
+        Requirements Defined : 60 requirements : 5 use cases, 8 personas
+    section 16.27
+        Risk Register : 20 risks, Orange Book : 35% residual risk reduction
+    section 16.51
+        Business Case Approved : Green Book 5-case SOBC : £285M investment
+    section 17.10
+        Statement of Work : Digital Marketplace procurement : 5 pillars
 ```
 
 ---
