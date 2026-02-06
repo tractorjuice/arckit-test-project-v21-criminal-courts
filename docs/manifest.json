@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-05T22:30:00Z",
+  "generated": "2026-02-06T12:00:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v21-criminal-courts",
@@ -20,6 +20,12 @@
       "status": "live"
     },
     {
+      "path": "docs/guides/stakeholder-analysis.md",
+      "title": "Stakeholder Analysis Guide",
+      "category": "Discovery",
+      "status": "live"
+    },
+    {
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
@@ -30,12 +36,6 @@
       "title": "Data Source Discovery Guide",
       "category": "Discovery",
       "status": "experimental"
-    },
-    {
-      "path": "docs/guides/stakeholder-analysis.md",
-      "title": "Stakeholder Analysis Guide",
-      "category": "Discovery",
-      "status": "live"
     },
     {
       "path": "docs/guides/sobc.md",
@@ -320,6 +320,12 @@
       "status": "experimental"
     },
     {
+      "path": "docs/guides/upgrading.md",
+      "title": "Upgrading ArcKit",
+      "category": "Other",
+      "status": "experimental"
+    },
+    {
       "path": "docs/guides/uk-government/technology-code-of-practice.md",
       "title": "Technology Code of Practice (TCoP) Guide",
       "category": "Compliance",
@@ -371,6 +377,29 @@
       "isDefault": true
     }
   ],
+  "globalExternal": [
+    {
+      "path": "projects/000-global/external/35.49_MOJ_Ind_Review_Criminal_Courts_v8b_FINAL_WEB.pdf",
+      "title": "35.49_MOJ_Ind_Review_Criminal_Courts_v8b_FINAL_WEB.pdf",
+      "type": "pdf"
+    },
+    {
+      "path": "projects/000-global/external/independent-review-criminal-courts-overview.pdf",
+      "title": "independent-review-criminal-courts-overview.pdf",
+      "type": "pdf"
+    },
+    {
+      "path": "projects/000-global/external/independent-review-criminal-courts-part-2-vol-1.pdf",
+      "title": "independent-review-criminal-courts-part-2-vol-1.pdf",
+      "type": "pdf"
+    },
+    {
+      "path": "projects/000-global/external/independent-review-criminal-courts-part-2-vol-2.pdf",
+      "title": "independent-review-criminal-courts-part-2-vol-2.pdf",
+      "type": "pdf"
+    }
+  ],
+  "globalPolicies": [],
   "projects": [
     {
       "id": "001-criminal-courts-technology-and-ai-reform",
@@ -397,7 +426,7 @@
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRAT-v1.0.md",
           "title": "Architecture Strategy",
-          "category": "Architecture",
+          "category": "Planning",
           "documentId": "ARC-001-STRAT-v1.0"
         },
         {
@@ -460,7 +489,8 @@
       "wardleyMaps": [],
       "dataContracts": [],
       "reviews": [],
-      "vendors": []
+      "vendors": [],
+      "external": []
     }
   ]
 }
