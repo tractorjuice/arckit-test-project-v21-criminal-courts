@@ -68,6 +68,12 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/strategy.md",
+      "title": "Architecture Strategy Playbook",
+      "category": "Planning",
+      "status": "beta"
+    },
+    {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
@@ -126,12 +132,6 @@
       "title": "Data Mesh Contract Quick Guide",
       "category": "Architecture",
       "status": "alpha"
-    },
-    {
-      "path": "docs/guides/strategy.md",
-      "title": "Architecture Strategy Playbook",
-      "category": "Architecture",
-      "status": "beta"
     },
     {
       "path": "docs/guides/risk.md",
@@ -212,6 +212,36 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/uk-government/technology-code-of-practice.md",
+      "title": "Technology Code of Practice (TCoP) Guide",
+      "category": "Compliance",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/uk-government/secure-by-design.md",
+      "title": "UK Government Secure by Design Guide",
+      "category": "Compliance",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/uk-government/ai-playbook.md",
+      "title": "UK Government AI Playbook Guide",
+      "category": "Compliance",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/uk-government/algorithmic-transparency.md",
+      "title": "Algorithmic Transparency Recording Standard (ATRS) Guide",
+      "category": "Compliance",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/uk-mod/secure-by-design.md",
+      "title": "MOD Secure by Design Guide",
+      "category": "Compliance",
+      "status": "live"
+    },
+    {
       "path": "docs/guides/devops.md",
       "title": "DevOps Strategy Playbook",
       "category": "Operations",
@@ -278,6 +308,18 @@
       "status": "experimental"
     },
     {
+      "path": "docs/guides/uk-government/digital-marketplace.md",
+      "title": "Digital Marketplace Procurement Guide",
+      "category": "Procurement",
+      "status": "live"
+    },
+    {
+      "path": "docs/guides/uk-government/standards-map.md",
+      "title": "UK Government Digital Policy & Standards Map",
+      "category": "Governance",
+      "status": "live"
+    },
+    {
       "path": "docs/guides/aws-research.md",
       "title": "AWS Technology Research Guide",
       "category": "Research",
@@ -324,48 +366,6 @@
       "title": "Upgrading ArcKit",
       "category": "Other",
       "status": "experimental"
-    },
-    {
-      "path": "docs/guides/uk-government/technology-code-of-practice.md",
-      "title": "Technology Code of Practice (TCoP) Guide",
-      "category": "Compliance",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-government/secure-by-design.md",
-      "title": "UK Government Secure by Design Guide",
-      "category": "Compliance",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-government/ai-playbook.md",
-      "title": "UK Government AI Playbook Guide",
-      "category": "Compliance",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-government/algorithmic-transparency.md",
-      "title": "Algorithmic Transparency Recording Standard (ATRS) Guide",
-      "category": "Compliance",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-government/digital-marketplace.md",
-      "title": "Digital Marketplace Procurement Guide",
-      "category": "Procurement",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-government/standards-map.md",
-      "title": "UK Government Digital Policy & Standards Map",
-      "category": "Governance",
-      "status": "live"
-    },
-    {
-      "path": "docs/guides/uk-mod/secure-by-design.md",
-      "title": "MOD Secure by Design Guide",
-      "category": "Compliance",
-      "status": "live"
     }
   ],
   "global": [
