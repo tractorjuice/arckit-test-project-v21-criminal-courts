@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-11T16:45:00.345Z",
+  "generated": "2026-03-11T18:03:18.979Z",
   "repository": {
     "name": "arckit-test-project-v21-criminal-courts"
   },
@@ -766,7 +766,9 @@
         "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
         "title": "Criminal Courts Technology & AI Reform — Enterprise Architecture Principles",
         "status": "DRAFT",
-        "severity": "MEDIUM"
+        "severity": "MEDIUM",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-ANAL-v1.0": {
         "type": "ANAL",
@@ -774,7 +776,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-ANAL-v1.0.md",
         "title": "Criminal Courts Technology & AI Reform — Governance Quality Analysis",
         "status": "DRAFT",
-        "severity": "HIGH"
+        "severity": "HIGH",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-DPIA-v1.0": {
         "type": "DPIA",
@@ -782,7 +786,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-DPIA-v1.0.md",
         "title": "Data Protection Impact Assessment (DPIA)",
         "status": "DRAFT",
-        "severity": "HIGH"
+        "severity": "HIGH",
+        "createdDate": "2026-02-05",
+        "lastModified": "2026-02-05"
       },
       "ARC-001-PLAT-v1.0": {
         "type": "PLAT",
@@ -790,7 +796,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-PLAT-v1.0.md",
         "title": "Platform Strategy Design: Criminal Justice Digital Platform",
         "status": "DRAFT",
-        "severity": "MEDIUM"
+        "severity": "MEDIUM",
+        "createdDate": "2026-02-05",
+        "lastModified": "2026-02-05"
       },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
@@ -798,7 +806,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md",
         "title": "Project Requirements: Criminal Courts Technology & AI Reform",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-RISK-v1.0": {
         "type": "RISK",
@@ -806,7 +816,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-RISK-v1.0.md",
         "title": "Risk Register: Criminal Courts Technology & AI Reform",
         "status": "DRAFT",
-        "severity": "HIGH"
+        "severity": "HIGH",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-SOBC-v1.0": {
         "type": "SOBC",
@@ -814,7 +826,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md",
         "title": "Strategic Outline Business Case (SOBC)",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-SOW-v1.0": {
         "type": "SOW",
@@ -822,7 +836,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOW-v1.0.md",
         "title": "Statement of Work (SOW): Criminal Courts Technology & AI Reform",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-STKE-v1.0": {
         "type": "STKE",
@@ -830,7 +846,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STKE-v1.0.md",
         "title": "Stakeholder Drivers & Goals Analysis: Criminal Courts Technology & AI Reform",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-STORY-v1.0": {
         "type": "STORY",
@@ -838,7 +856,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STORY-v1.0.md",
         "title": "Criminal Courts Technology & AI Reform - Project Story",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-04"
       },
       "ARC-001-STORY-v1.1": {
         "type": "STORY",
@@ -846,7 +866,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STORY-v1.1.md",
         "title": "Criminal Courts Technology & AI Reform - Project Story",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-04",
+        "lastModified": "2026-02-05"
       },
       "ARC-001-STRAT-v1.0": {
         "type": "STRAT",
@@ -854,7 +876,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRAT-v1.0.md",
         "title": "Architecture Strategy: Criminal Courts Technology & AI Reform",
         "status": "DRAFT",
-        "severity": "LOW"
+        "severity": "LOW",
+        "createdDate": "2026-02-05",
+        "lastModified": "2026-02-05"
       },
       "ARC-001-TCOP-v1.0": {
         "type": "TCOP",
@@ -862,7 +886,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-TCOP-v1.0.md",
         "title": "Technology Code of Practice (TCoP) Review",
         "status": "DRAFT",
-        "severity": "HIGH"
+        "severity": "HIGH",
+        "createdDate": "2026-02-05",
+        "lastModified": "2026-02-05"
       },
       "ARC-001-TCOP-v1.1": {
         "type": "TCOP",
@@ -870,7 +896,9 @@
         "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-TCOP-v1.1.md",
         "title": "Technology Code of Practice (TCoP) Review",
         "status": "DRAFT",
-        "severity": "HIGH"
+        "severity": "HIGH",
+        "createdDate": "2026-02-05",
+        "lastModified": "2026-02-05"
       }
     },
     "edges": [
