@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Document ID** | ARC-001-STRY-v1.1 |
+| **Document ID** | ARC-001-STORY-v1.1 |
 | **Document Type** | Project Story |
 | **Project** | Criminal Courts Technology & AI Reform (Project 001) |
 | **Classification** | OFFICIAL |
@@ -157,11 +157,11 @@ flowchart TD
 | 6 | 2026-02-04 | 16:51 | 140 | Business Case | `/arckit.sobc` | ARC-001-SOBC-v1.0.md | Green Book 5-case SOBC; £281M investment; NPV £5.1M; BCR 1.5:1; Option 3 (BUY) recommended |
 | 7 | 2026-02-04 | 17:10 | 159 | Procurement | `/arckit.sow` | ARC-001-SOW-v1.0.md | Statement of Work for Digital Marketplace; 5 pillars; 11 milestones |
 | 8 | 2026-02-04 | 17:15 | 164 | Documentation | `/arckit.pages` | docs/index.html | GitHub Pages site with 6 documents indexed |
-| 9 | 2026-02-04 | 17:29 | 178 | Governance | `/arckit.analyze` | ARC-001-ANLZ-v1.0.md | Governance quality analysis; artifact completeness assessment |
-| 10 | 2026-02-04 | 17:29 | 178 | Documentation | `/arckit.story` | ARC-001-STRY-v1.0.md | Project story v1.0 documenting 7 artifacts |
+| 9 | 2026-02-04 | 17:29 | 178 | Governance | `/arckit.analyze` | ARC-001-ANAL-v1.0.md | Governance quality analysis; artifact completeness assessment |
+| 10 | 2026-02-04 | 17:29 | 178 | Documentation | `/arckit.story` | ARC-001-STORY-v1.0.md | Project story v1.0 documenting 7 artifacts |
 | 11 | 2026-02-05 | 06:07 | 935 | Strategy | `/arckit.platform-design` | ARC-001-PLAT-v1.0.md | Platform Design Toolkit (PDT) 8-canvas analysis for CJDP |
 | 12 | 2026-02-05 | 06:16 | 944 | Strategy | `/arckit.strategy` | ARC-001-STRAT-v1.0.md | Architecture Strategy: £281M, 6 themes, 5-year horizon |
-| 13 | 2026-02-05 | 06:20 | 948 | Documentation | `/arckit.story` | ARC-001-STRY-v1.1.md | Project story v1.1 with Day 2 artifacts |
+| 13 | 2026-02-05 | 06:20 | 948 | Documentation | `/arckit.story` | ARC-001-STORY-v1.1.md | Project story v1.1 with Day 2 artifacts |
 
 ### Phase Duration Analysis
 
@@ -399,7 +399,7 @@ The analyze command (`/arckit.analyze`) assessed the quality and completeness of
 - Complete compliance assessments (TCoP, DPIA, ATRS) during delivery
 
 **Artifacts Created**:
-- `ARC-001-ANLZ-v1.0.md` — Governance quality analysis
+- `ARC-001-ANAL-v1.0.md` — Governance quality analysis
 
 ---
 
@@ -714,10 +714,10 @@ flowchart LR
 | 4 | ARC-001-RISK-v1.0 | Risk Register | 2026-02-04 | Governance | ~700 | ✅ Complete |
 | 5 | ARC-001-SOBC-v1.0 | Business Case | 2026-02-04 | Business Case | ~1000 | ✅ Complete |
 | 6 | ARC-001-SOW-v1.0 | Statement of Work | 2026-02-04 | Procurement | ~800 | ✅ Complete |
-| 7 | ARC-001-ANLZ-v1.0 | Governance Analysis | 2026-02-04 | Quality | ~400 | ✅ Complete |
+| 7 | ARC-001-ANAL-v1.0 | Governance Analysis | 2026-02-04 | Quality | ~400 | ✅ Complete |
 | 8 | ARC-001-PLAT-v1.0 | Platform Design | 2026-02-05 | Strategy | ~1200 | ✅ Complete |
 | 9 | ARC-001-STRAT-v1.0 | Architecture Strategy | 2026-02-05 | Strategy | ~900 | ✅ Complete |
-| 10 | ARC-001-STRY-v1.1 | Project Story | 2026-02-05 | Documentation | ~800 | ✅ Complete |
+| 10 | ARC-001-STORY-v1.1 | Project Story | 2026-02-05 | Documentation | ~800 | ✅ Complete |
 
 ---
 
@@ -732,10 +732,10 @@ flowchart LR
 | `/arckit.sobc` | ARC-001-SOBC | Green Book business case | Stakeholders, Requirements, Risk |
 | `/arckit.sow` | ARC-001-SOW | Statement of Work | Requirements, SOBC |
 | `/arckit.pages` | docs/index.html | GitHub Pages site | Any artifacts |
-| `/arckit.analyze` | ARC-001-ANLZ | Governance quality analysis | Multiple artifacts |
+| `/arckit.analyze` | ARC-001-ANAL | Governance quality analysis | Multiple artifacts |
 | `/arckit.platform-design` | ARC-001-PLAT | Platform Design Toolkit | Stakeholders, Requirements |
 | `/arckit.strategy` | ARC-001-STRAT | Architecture Strategy | Principles, Stakeholders, SOBC, Risk |
-| `/arckit.story` | ARC-001-STRY | Project Story | Multiple artifacts |
+| `/arckit.story` | ARC-001-STORY | Project Story | Multiple artifacts |
 
 ---
 

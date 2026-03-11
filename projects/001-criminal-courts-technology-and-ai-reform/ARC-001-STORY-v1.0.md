@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Document ID** | ARC-001-STRY-v1.0 |
+| **Document ID** | ARC-001-STORY-v1.0 |
 | **Document Type** | Project Story |
 | **Project** | Criminal Courts Technology & AI Reform (Project 001) |
 | **Classification** | OFFICIAL |
@@ -701,7 +701,7 @@ Complete list of all artifacts generated during this project:
 | 4 | Risk Register | `projects/001-criminal-courts-technology-and-ai-reform/ARC-001-RISK-v1.0.md` | 2026-02-04 | `/arckit.risk` | ✅ |
 | 5 | Strategic Outline Business Case | `projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md` | 2026-02-04 | `/arckit.sobc` | ✅ |
 | 6 | Statement of Work | `projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOW-v1.0.md` | 2026-02-04 | `/arckit.sow` | ✅ |
-| 7 | Project Story | `projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRY-v1.0.md` | 2026-02-04 | `/arckit.story` | ✅ |
+| 7 | Project Story | `projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STORY-v1.0.md` | 2026-02-04 | `/arckit.story` | ✅ |
 
 **Total Artifacts**: 7 (1 global + 6 project-specific)
 
@@ -772,7 +772,7 @@ ArcKit commands used in this project:
 | `/arckit.sobc` | Strategic Outline Business Case (Green Book) | After risk register | ARC-001-SOBC-v1.0.md |
 | `/arckit.sow` | Statement of Work for procurement | After SOBC | ARC-001-SOW-v1.0.md |
 | `/arckit.pages` | GitHub Pages documentation site | After all artifacts | docs/index.html, docs/manifest.json |
-| `/arckit.story` | Comprehensive project narrative | After SOW | ARC-001-STRY-v1.0.md |
+| `/arckit.story` | Comprehensive project narrative | After SOW | ARC-001-STORY-v1.0.md |
 
 **Commands Not Yet Executed** (recommended next steps):
 

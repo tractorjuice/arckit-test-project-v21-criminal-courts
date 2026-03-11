@@ -6,7 +6,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Document ID** | ARC-001-ANLZ-v1.0 |
+| **Document ID** | ARC-001-ANAL-v1.0 |
 | **Document Type** | Governance Quality Analysis |
 | **Project** | Criminal Courts Technology & AI Reform (Project 001) |
 | **Classification** | OFFICIAL |
@@ -45,7 +45,7 @@ This report presents a comprehensive governance quality analysis of the Criminal
 | Risk Register | ARC-001-RISK-v1.0 | ✅ Analysed |
 | Strategic Outline Business Case | ARC-001-SOBC-v1.0 | ✅ Analysed |
 | Statement of Work | ARC-001-SOW-v1.0 | ✅ Analysed |
-| Project Story | ARC-001-STRY-v1.0 | ✅ Reviewed (context only) |
+| Project Story | ARC-001-STORY-v1.0 | ✅ Reviewed (context only) |
 
 ### Missing Artifacts (Not Yet Produced)
 
@@ -97,7 +97,7 @@ This report presents a comprehensive governance quality analysis of the Criminal
 
 | Finding ID | Severity | Finding | Affected Artifact | Detail |
 |------------|----------|---------|-------------------|--------|
-| RQ-001 | **MEDIUM** | Requirements count inconsistency | ARC-001-REQ-v1.0 / ARC-001-STRY-v1.0 | Story and SOW reference "60 requirements" and "26 NFR" but detailed count yields 56 total and 22 NFR. The discrepancy appears to be from counting individual NFR checklist items vs NFR requirement identifiers. Standardise the count methodology. |
+| RQ-001 | **MEDIUM** | Requirements count inconsistency | ARC-001-REQ-v1.0 / ARC-001-STORY-v1.0 | Story and SOW reference "60 requirements" and "26 NFR" but detailed count yields 56 total and 22 NFR. The discrepancy appears to be from counting individual NFR checklist items vs NFR requirement identifiers. Standardise the count methodology. |
 | RQ-002 | **MEDIUM** | Missing acceptance criteria on some FRs | ARC-001-REQ-v1.0 | FR-001 through FR-014 have acceptance criteria, but some are process-oriented ("AI governance framework approved") rather than testable. FR-006 (AI Governance) acceptance criteria ("framework approved by judicial steering group") is an approval gate, not a testable criterion. |
 | RQ-003 | **LOW** | NFR targets missing measurement method | ARC-001-REQ-v1.0 | NFR-P-001 (500ms p95) and NFR-A-001 (99.9%) state targets but the NFR section doesn't specify measurement tools. The KPI table in Success Criteria references "APM tooling" and "uptime monitoring" but this should be in the NFR itself. |
 | RQ-004 | **HIGH** | No explicit requirement for AI model explainability metrics | ARC-001-REQ-v1.0 | TC-004 states "AI models must be auditable and explainable" and NFR-C-003 covers ATRS, but there is no FR or NFR specifying *what level* of explainability is required (e.g., SHAP values, feature importance, plain-language explanation). This is critical for criminal justice AI where decisions may be challenged in court. |
@@ -239,7 +239,7 @@ This report presents a comprehensive governance quality analysis of the Criminal
 
 | Finding ID | Severity | Finding | Detail |
 |------------|----------|---------|--------|
-| BC-001 | **HIGH** | BCR inconsistency between SOBC and Story | SOBC states BCR 1.1:1 (quantified only) and ~1.5:1 (including strategic benefits). The Project Story (ARC-001-STRY-v1.0) states "BCR 1.5:1" without qualification. This could mislead stakeholders — the auditable quantified BCR is 1.1:1 which is marginal for Treasury approval. |
+| BC-001 | **HIGH** | BCR inconsistency between SOBC and Story | SOBC states BCR 1.1:1 (quantified only) and ~1.5:1 (including strategic benefits). The Project Story (ARC-001-STORY-v1.0) states "BCR 1.5:1" without qualification. This could mislead stakeholders — the auditable quantified BCR is 1.1:1 which is marginal for Treasury approval. |
 | BC-002 | **HIGH** | Investment figure inconsistency | SOBC states "£281M over 5 years (£326M with optimism bias)". Story states "£285M investment". SOW references the programme budget contextually. The £281M vs £285M discrepancy needs reconciliation. |
 | BC-003 | **MEDIUM** | Benefits figure inconsistency | SOBC states "£495M over 10 years". Story states "£420M benefits". These are different figures that need reconciliation across documents. |
 | BC-004 | **MEDIUM** | Optimism bias treatment | SOBC applies 41% optimism bias uplift (appropriate for IT-enabled business change per Green Book supplementary guidance). However, the requirements don't reference optimism bias in cost assumptions, and the SOW evaluation criteria don't require vendors to address optimism bias in their pricing. |
@@ -281,7 +281,7 @@ This report presents a comprehensive governance quality analysis of the Criminal
 
 ### 7.1 Numerical Consistency
 
-| Data Point | ARC-001-REQ | ARC-001-RISK | ARC-001-SOBC | ARC-001-SOW | ARC-001-STRY | Status |
+| Data Point | ARC-001-REQ | ARC-001-RISK | ARC-001-SOBC | ARC-001-SOW | ARC-001-STORY | Status |
 |------------|-------------|--------------|--------------|-------------|--------------|--------|
 | Total requirements | 56 (by ID count) | — | — | "60 requirements" | "60 requirements" | ⚠️ INCONSISTENT |
 | NFR count | 22 (by ID) | — | — | "26 NFR" | "26 NFR" | ⚠️ INCONSISTENT |
@@ -441,7 +441,7 @@ This report presents a comprehensive governance quality analysis of the Criminal
 | 2 | Architecture Principles Alignment | ARC-000-PRIN-v1.0 ↔ ARC-001-REQ-v1.0, ARC-001-RISK-v1.0, ARC-001-SOBC-v1.0 |
 | 3 | Stakeholder Traceability | ARC-001-STKE-v1.0 ↔ ARC-001-REQ-v1.0, ARC-001-RISK-v1.0 |
 | 4 | Risk Management | ARC-001-RISK-v1.0 ↔ ARC-001-REQ-v1.0, ARC-001-STKE-v1.0 |
-| 5 | Business Case Alignment | ARC-001-SOBC-v1.0 ↔ ARC-001-REQ-v1.0, ARC-001-SOW-v1.0, ARC-001-STRY-v1.0 |
+| 5 | Business Case Alignment | ARC-001-SOBC-v1.0 ↔ ARC-001-REQ-v1.0, ARC-001-SOW-v1.0, ARC-001-STORY-v1.0 |
 | 6 | UK Government Compliance | All artifacts ↔ GDS, TCoP, NCSC CAF, UK GDPR, AI Playbook, ATRS, Green Book, Orange Book |
 | 7 | Cross-Artifact Consistency | All artifacts (numerical, terminology, cross-reference) |
 | 8 | Security and Data Protection | ARC-001-REQ-v1.0 (NFR-SEC, NFR-C sections) |
