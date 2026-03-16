@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T10:33:54.939Z",
+  "generated": "2026-03-16T20:53:30.625Z",
   "repository": {
     "name": "arckit-test-project-v21-criminal-courts"
   },
@@ -474,6 +474,30 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/wardley-climate.md",
+      "title": "Climate Assessment Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-doctrine.md",
+      "title": "Doctrine Assessment Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-gameplay.md",
+      "title": "Gameplay Analysis Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-value-chain.md",
+      "title": "Value Chain Decomposition Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
       "path": "docs/guides/wardley.md",
       "title": "Wardley Mapping Playbook",
       "category": "Architecture",
@@ -614,6 +638,10 @@
     "DLDR": "Architecture",
     "DATA": "Architecture",
     "WARD": "Architecture",
+    "WDOC": "Architecture",
+    "WGAM": "Architecture",
+    "WCLM": "Architecture",
+    "WVCH": "Architecture",
     "DIAG": "Architecture",
     "DFD": "Architecture",
     "ADR": "Architecture",
@@ -754,6 +782,38 @@
           "title": "TCoP Assessment",
           "category": "Compliance",
           "documentId": "ARC-001-TCOP-v1.1"
+        }
+      ],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-001-v1.0.md",
+          "title": "Wardley Map: Criminal Courts Technology & AI Reform — Current State & Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-002-v1.0.md",
+          "title": "Wardley Map: Criminal Courts Technology & AI Reform — 24-Month Future State",
+          "documentId": "ARC-001-WARD-002-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WCLM-001-v1.0.md",
+          "title": "Wardley Climate Assessment: Criminal Courts Technology & AI Reform",
+          "documentId": "ARC-001-WCLM-001-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WDOC-v1.0.md",
+          "title": "Wardley Doctrine Assessment: Criminal Courts Technology & AI Reform",
+          "documentId": "ARC-001-WDOC-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WGAM-001-v1.0.md",
+          "title": "Wardley Gameplay Analysis: Criminal Courts Technology & AI Reform",
+          "documentId": "ARC-001-WGAM-001-v1.0"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WVCH-001-v1.0.md",
+          "title": "Wardley Value Chain: Criminal Courts Technology & AI Reform",
+          "documentId": "ARC-001-WVCH-001-v1.0"
         }
       ]
     }
@@ -899,6 +959,66 @@
         "severity": "HIGH",
         "createdDate": "2026-02-05",
         "lastModified": "2026-02-05"
+      },
+      "ARC-001-WARD-001-v1.0": {
+        "type": "WARD",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-001-v1.0.md",
+        "title": "Wardley Map: Criminal Courts Technology & AI Reform — Current State & Procurement Strategy",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
+      },
+      "ARC-001-WARD-002-v1.0": {
+        "type": "WARD",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-002-v1.0.md",
+        "title": "Wardley Map: Criminal Courts Technology & AI Reform — 24-Month Future State",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
+      },
+      "ARC-001-WCLM-001-v1.0": {
+        "type": "WCLM",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WCLM-001-v1.0.md",
+        "title": "Wardley Climate Assessment: Criminal Courts Technology & AI Reform",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
+      },
+      "ARC-001-WDOC-v1.0": {
+        "type": "WDOC",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WDOC-v1.0.md",
+        "title": "Wardley Doctrine Assessment: Criminal Courts Technology & AI Reform",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
+      },
+      "ARC-001-WGAM-001-v1.0": {
+        "type": "WGAM",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WGAM-001-v1.0.md",
+        "title": "Wardley Gameplay Analysis: Criminal Courts Technology & AI Reform",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
+      },
+      "ARC-001-WVCH-001-v1.0": {
+        "type": "WVCH",
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WVCH-001-v1.0.md",
+        "title": "Wardley Value Chain: Criminal Courts Technology & AI Reform",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-16",
+        "lastModified": "2026-03-16"
       }
     },
     "edges": [
@@ -1280,6 +1400,221 @@
       {
         "from": "ARC-001-TCOP-v1.1",
         "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-DPIA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-STRAT",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-001-v1.0",
+        "to": "ARC-001-TCOP",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-WDOC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-WGAM-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-WCLM-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WARD-002-v1.0",
+        "to": "ARC-001-STRAT",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WDOC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WGAM-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-STRAT",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-STRAT",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-TCOP",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-DPIA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WDOC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-STRAT",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-DPIA",
         "type": "references"
       }
     ]
