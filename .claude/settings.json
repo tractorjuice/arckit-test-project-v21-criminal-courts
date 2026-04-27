@@ -1,4 +1,8 @@
 {
+  "enabledPlugins": {
+    "arckit@arc-kit": true,
+    "antv-infographic-skills@antv-infographic": true
+  },
   "extraKnownMarketplaces": {
     "arc-kit": {
       "source": {
@@ -6,8 +10,5 @@
         "repo": "tractorjuice/arc-kit"
       }
     }
-  },
-  "enabledPlugins": {
-    "arckit@arc-kit": true
   }
 }

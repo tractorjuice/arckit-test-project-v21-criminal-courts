@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1320, initial-scale=1">
+  <title>Criminal Courts Technology & AI Reform — Executive Deck</title>
+  <style>
+    :root {
+      --navy: #0b2545;
+      --teal-deep: #134e6c;
+      --teal: #2c8aa3;
+      --teal-light: #8da9c4;
+      --amber: #d4a017;
+      --crimson: #c0392b;
+      --ink: #1a202c;
+      --slate: #4a5568;
+      --rule: #e5e7eb;
+      --paper: #f5f6f8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+    nav.toc {
+      position: fixed;
+      top: 0; left: 0;
+      width: 220px;
+      height: 100vh;
+      background: var(--navy);
+      color: white;
+      padding: 24px 18px;
+      overflow-y: auto;
+      box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+    nav.toc h2 {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--teal-light);
+      margin: 0 0 4px;
+    }
+    nav.toc .deck-id {
+      font-size: 10px;
+      color: var(--teal-light);
+      opacity: 0.7;
+      margin-bottom: 18px;
+    }
+    nav.toc ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      counter-reset: slide;
+    }
+    nav.toc li {
+      counter-increment: slide;
+      margin-bottom: 2px;
+    }
+    nav.toc a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+      padding: 7px 8px 7px 28px;
+      border-radius: 3px;
+      position: relative;
+      line-height: 1.35;
+      border-left: 2px solid transparent;
+    }
+    nav.toc a::before {
+      content: counter(slide, decimal-leading-zero);
+      position: absolute;
+      left: 6px;
+      top: 7px;
+      color: var(--teal);
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    nav.toc a:hover {
+      background: rgba(255,255,255,0.06);
+      border-left-color: var(--amber);
+    }
+    main {
+      margin-left: 220px;
+      padding: 24px 24px 80px;
+    }
+    .deck-meta {
+      max-width: 1280px;
+      margin: 0 auto 16px;
+      font-size: 11px;
+      color: var(--slate);
+      display: flex;
+      justify-content: space-between;
+    }
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      background: white;
+      box-shadow: 0 4px 24px rgba(11,37,69,0.10);
+      display: flex;
+      flex-direction: column;
+      scroll-margin-top: 16px;
+      page-break-after: always;
+      position: relative;
+    }
+    .slide-header {
+      padding: 22px 44px 14px;
+      border-bottom: 2px solid var(--navy);
+      flex-shrink: 0;
+    }
+    .slide-eyebrow {
+      font-size: 11px;
+      color: var(--teal);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    .slide-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--navy);
+      margin: 6px 0 6px;
+      line-height: 1.32;
+      max-width: 1180px;
+    }
+    .slide-subtitle {
+      font-size: 13px;
+      color: var(--slate);
+      font-style: italic;
+      line-height: 1.4;
+      max-width: 1180px;
+    }
+    .slide-body {
+      flex: 1;
+      padding: 8px 28px 8px;
+      overflow: hidden;
+      position: relative;
+      min-height: 0;
+    }
+    .slide-footer {
+      padding: 10px 44px;
+      border-top: 1px solid var(--rule);
+      font-size: 10.5px;
+      color: var(--slate);
+      display: flex;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .slide-footer .source { color: #94a3b8; font-style: italic; }
+    .infographic-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Cover slide special styling */
+    .slide.cover {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--teal-deep) 60%, var(--teal) 100%);
+      color: white;
+      padding: 0;
+    }
+    .cover-inner {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 64px;
+    }
+    .cover-rule {
+      width: 96px;
+      height: 4px;
+      background: var(--amber);
+      margin-bottom: 32px;
+    }
+    .cover-eyebrow {
+      font-size: 14px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--teal-light);
+      margin-bottom: 14px;
+    }
+    .cover-title {
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 1.08;
+      max-width: 1000px;
+      margin: 0 0 24px;
+    }
+    .cover-subtitle {
+      font-size: 20px;
+      color: rgba(255,255,255,0.85);
+      max-width: 900px;
+      line-height: 1.4;
+      font-weight: 300;
+    }
+    .cover-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+    .cover-stat .num {
+      font-size: 38px;
+      font-weight: 700;
+      color: var(--amber);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .cover-stat .lbl {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+    }
+    .cover-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: rgba(255,255,255,0.6);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    /* Decision slide special styling */
+    .slide.decision {
+      background: linear-gradient(135deg, #0b2545 0%, #134e6c 100%);
+      color: white;
+    }
+    .slide.decision .slide-title { color: white; }
+    .slide.decision .slide-subtitle { color: rgba(255,255,255,0.8); }
+    .slide.decision .slide-eyebrow { color: var(--amber); }
+    .slide.decision .slide-header { border-bottom-color: var(--amber); }
+    .slide.decision .slide-footer {
+      color: rgba(255,255,255,0.7);
+      border-top-color: rgba(255,255,255,0.15);
+    }
+    .decision-rec {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 16px 32px;
+      margin: 8px 16px 12px;
+      background: rgba(212,160,23,0.12);
+      border-left: 4px solid var(--amber);
+      border-radius: 4px;
+    }
+    .decision-rec .verdict {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--amber);
+      letter-spacing: 1px;
+      flex-shrink: 0;
+    }
+    .decision-rec .rationale {
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgba(255,255,255,0.92);
+    }
+
+    /* Print styles */
+    @media print {
+      body { background: white; }
+      nav.toc, .deck-meta { display: none; }
+      main { margin: 0; padding: 0; }
+      .slide {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="toc">
+    <h2>The Deck</h2>
+    <div class="deck-id">ARC-001-DECK-v1.0<br>OFFICIAL · 2026-04-27</div>
+    <ol>
+      <li><a href="#slide-1">Cover</a></li>
+      <li><a href="#slide-2">Executive Summary</a></li>
+      <li><a href="#slide-3">Situation</a></li>
+      <li><a href="#slide-4">Complication</a></li>
+      <li><a href="#slide-5">Six Investment Themes</a></li>
+      <li><a href="#slide-6">Five-Year Roadmap</a></li>
+      <li><a href="#slide-7">Outcomes (FY28/29)</a></li>
+      <li><a href="#slide-8">Investment & Return</a></li>
+      <li><a href="#slide-9">Top Five Risks</a></li>
+      <li><a href="#slide-10">Stakeholder Map</a></li>
+      <li><a href="#slide-11">Five Guardrails</a></li>
+      <li><a href="#slide-12">Compliance Frameworks</a></li>
+      <li><a href="#slide-13">The Decision</a></li>
+      <li><a href="#slide-14">Traceability</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <div class="deck-meta">
+      <span>Criminal Courts Technology &amp; AI Reform — Executive Briefing</span>
+      <span>Sponsor: MoJ Permanent Secretary (SRO) · Drafted: ArcKit v1.5.0</span>
+    </div>
+
+    <!-- Slide 1: Cover -->
+    <section class="slide cover" id="slide-1">
+      <div class="cover-inner">
+        <div>
+          <div class="cover-eyebrow">Strategic Outline · Executive Briefing</div>
+          <div class="cover-rule"></div>
+          <h1 class="cover-title">Restoring justice: a £281M, five-year technology and AI reform of England's criminal courts</h1>
+          <div class="cover-subtitle">Implementing 180 recommendations from the Independent Review of the Criminal Courts (Leveson Review, 2025–2026), across HMCTS, CPS, the police service, HMPPS and the Legal Aid Agency.</div>
+          <div class="cover-stats">
+            <div class="cover-stat"><div class="num">£281M</div><div class="lbl">5-Year Investment</div></div>
+            <div class="cover-stat"><div class="num">180</div><div class="lbl">Recommendations</div></div>
+            <div class="cover-stat"><div class="num">42 mo</div><div class="lbl">Payback</div></div>
+            <div class="cover-stat"><div class="num">1.5 : 1</div><div class="lbl">Benefit-Cost Ratio</div></div>
+          </div>
+        </div>
+        <div class="cover-meta">
+          <span>Prepared for: Lord Chancellor · MoJ Permanent Secretary · HM Treasury · Senior Judiciary</span>
+          <span>April 2026 · OFFICIAL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2: Executive Summary -->
+    <section class="slide" id="slide-2">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Executive Summary · The Answer</div>
+        <h1 class="slide-title">Proceed with the £281M Phased Comprehensive Reform — payback in 42 months and a 1.5:1 benefit-cost ratio outweigh the cost of inaction.</h1>
+        <div class="slide-subtitle">Backlog reduction alone delivers £180M of the £420M ten-year benefit. Phased delivery with stage-gate Treasury approvals manages risk while enabling early benefit realisation.</div>
+      </div>
+      <div class="slide-body"><div id="ig-2" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-SOBC-v1.0 (Strategic Outline Business Case)</span>
+        <span>02 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 3: Situation -->
+    <section class="slide" id="slide-3">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Situation</div>
+        <h1 class="slide-title">The criminal courts are in crisis on four fronts simultaneously — backlog, delay, legacy, and fragmentation.</h1>
+        <div class="slide-subtitle">Drawn from the Independent Review of the Criminal Courts (2025-2026) and stakeholder analysis across 22 organisations.</div>
+      </div>
+      <div class="slide-body"><div id="ig-3" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: Leveson Review Part 1 (Jul 2025) &amp; Part 2 (Feb 2026); ARC-001-STKE-v1.0</span>
+        <span>03 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 4: Complication -->
+    <section class="slide" id="slide-4">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Complication · Why Now</div>
+        <h1 class="slide-title">Without intervention, the crisis compounds — and the political window for action is closing.</h1>
+        <div class="slide-subtitle">Five forces accelerate the cost of inaction; cross-party Leveson support is the only realistic opening to act.</div>
+      </div>
+      <div class="slide-body"><div id="ig-4" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: NAO Report on Government Legacy IT (2024); ARC-001-RISK-v1.0</span>
+        <span>04 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 5: Six Themes -->
+    <section class="slide" id="slide-5">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Resolution · The Programme</div>
+        <h1 class="slide-title">Six investment themes deliver the Leveson Review mandate within the £281M envelope.</h1>
+        <div class="slide-subtitle">Programme management is the largest single line (27%) because cross-agency change — not technology — is the dominant delivery risk.</div>
+      </div>
+      <div class="slide-body"><div id="ig-5" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-STRAT-v1.0 §Strategic Themes &amp; Investment Areas</span>
+        <span>05 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 6: Roadmap -->
+    <section class="slide" id="slide-6">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Roadmap</div>
+        <h1 class="slide-title">Four phases over five years, each gated by an explicit Treasury or governance approval.</h1>
+        <div class="slide-subtitle">Stage gates de-risk delivery; each phase must demonstrate value before the next is funded. AI pilots run prosecution AND defence simultaneously from Phase 1.</div>
+      </div>
+      <div class="slide-body"><div id="ig-6" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-STRAT-v1.0 §Phase Summary</span>
+        <span>06 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 7: Outcomes -->
+    <section class="slide" id="slide-7">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Outcomes</div>
+        <h1 class="slide-title">Six measurable outcomes anchor the programme — each tied to a stakeholder goal and tracked to FY 2028/29.</h1>
+        <div class="slide-subtitle">Targets translate stakeholder goals (ARC-001-STKE) into SMART form. Each is owned by an accountable executive on the programme board.</div>
+      </div>
+      <div class="slide-body"><div id="ig-7" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-STKE-v1.0 §Goals; ARC-001-STRAT-v1.0 §Strategic Outcomes</span>
+        <span>07 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 8: Investment & Return -->
+    <section class="slide" id="slide-8">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Investment &amp; Return</div>
+        <h1 class="slide-title">£281M invested over five years returns £420M of benefits over ten — with backlog reduction the largest single line.</h1>
+        <div class="slide-subtitle">NPV £95M at 3.5% discount; BCR 1.5:1; payback 42 months. Benefits exclude unquantified gains in public confidence and judicial system legitimacy.</div>
+      </div>
+      <div class="slide-body"><div id="ig-8" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-SOBC-v1.0 §Economic Case (Green Book 5-case model)</span>
+        <span>08 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 9: Risks -->
+    <section class="slide" id="slide-9">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Risk Profile</div>
+        <h1 class="slide-title">Equality of arms is the single binding constraint — every other top risk is manageable through phased delivery.</h1>
+        <div class="slide-subtitle">Residual scores after controls. Inherent total 298 → Residual 193 (35% reduction). The programme cannot proceed if R-002 is unresolved.</div>
+      </div>
+      <div class="slide-body"><div id="ig-9" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-RISK-v1.0 (HM Treasury Orange Book methodology)</span>
+        <span>09 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 10: Stakeholders -->
+    <section class="slide" id="slide-10">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Stakeholder Map</div>
+        <h1 class="slide-title">Ten stakeholders sit in Manage Closely — programme governance must convene all of them in a single forum.</h1>
+        <div class="slide-subtitle">Twenty-two stakeholders mapped on Power × Interest. Dominant tension: ministerial pace vs judicial caution; prosecution efficiency vs defence equality of arms.</div>
+      </div>
+      <div class="slide-body"><div id="ig-10" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-STKE-v1.0 §Power-Interest Grid</span>
+        <span>10 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 11: Guardrails -->
+    <section class="slide" id="slide-11">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Guardrails · Non-Negotiable</div>
+        <h1 class="slide-title">Five non-negotiable principles constrain every design decision — violations require executive ADR exception.</h1>
+        <div class="slide-subtitle">Drawn from ARC-000-PRIN. The first two are constitutional; the others are statutory or NCSC/ICO regulatory expectations.</div>
+      </div>
+      <div class="slide-body"><div id="ig-11" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-000-PRIN-v1.0 §Criminal Justice Principles (P-21 to P-23)</span>
+        <span>11 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 12: Compliance -->
+    <section class="slide" id="slide-12">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Compliance Frameworks</div>
+        <h1 class="slide-title">Seven UK government compliance frameworks apply concurrently — ArcKit governance traces every decision to its source.</h1>
+        <div class="slide-subtitle">Concurrent applicability is the norm in criminal justice; design choices must satisfy all seven frameworks, not the easiest to evidence.</div>
+      </div>
+      <div class="slide-body"><div id="ig-12" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: GDS · CDDO · NCSC · CDEI · HM Treasury · DSIT</span>
+        <span>12 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 13: The Decision -->
+    <section class="slide decision" id="slide-13">
+      <div class="slide-header">
+        <div class="slide-eyebrow">The Decision · Recommendation</div>
+        <h1 class="slide-title">Recommendation: PROCEED — five gating actions in the next nine months unlock Phase 1.</h1>
+        <div class="slide-subtitle">Items 1, 3 and 4 must complete in parallel. Resolving defence technology funding (item 3) is the binding constraint for any AI go-live.</div>
+      </div>
+      <div class="decision-rec">
+        <div class="verdict">PROCEED</div>
+        <div class="rationale">The cost of inaction — escalating backlog, legacy failure risk, and constitutional challenge under Article 6 ECHR — exceeds the cost of intervention. Cross-party Leveson support and a ready Green Book business case create a narrow window. Phased delivery with stage-gate approvals contains risk while delivering early value.</div>
+      </div>
+      <div class="slide-body"><div id="ig-13" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ARC-001-SOBC-v1.0 §Recommendation; ARC-001-STRAT-v1.0 §Next Steps</span>
+        <span>13 / 14</span>
+      </div>
+    </section>
+
+    <!-- Slide 14: Traceability -->
+    <section class="slide" id="slide-14">
+      <div class="slide-header">
+        <div class="slide-eyebrow">Appendix · Traceability</div>
+        <h1 class="slide-title">Every claim in this deck is traceable to a versioned ArcKit governance artefact.</h1>
+        <div class="slide-subtitle">Fourteen artefacts under formal review cycle. New Leveson Part 2 documents (Feb 2026) are pending impact analysis — see /arckit:impact.</div>
+      </div>
+      <div class="slide-body"><div id="ig-14" class="infographic-container"></div></div>
+      <div class="slide-footer">
+        <span class="source">Source: ArcKit Plugin v4.9.2 · projects/001-criminal-courts-technology-and-ai-reform/</span>
+        <span>14 / 14</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/@antv/infographic@latest/dist/infographic.min.js"></script>
+  <script>
+    const slides = [
+      {
+        id: 'ig-2',
+        syntax: `infographic list-grid-badge-card
+data
+  title The case for action — four numbers tell the story
+  desc Backlog reduction is the dominant benefit; payback inside one Parliament
+  lists
+    - label 77,000 to <50,000
+      desc Crown Court backlog reduction within three years
+      icon chart line
+    - label 281M in / 420M out
+      desc Five-year investment, ten-year benefit (GBP)
+      icon scale
+    - label 42 Months
+      desc Payback period from first investment
+      icon clock
+    - label 1.5 : 1
+      desc Benefit-Cost Ratio; NPV 95M GBP at 3.5%
+      icon trending up
+theme
+  palette #0b2545 #134e6c #2c8aa3 #d4a017`
+      },
+      {
+        id: 'ig-3',
+        syntax: `infographic list-grid-ribbon-card
+data
+  title Four crisis indicators converging
+  desc System failures across operations, technology, and inter-agency coordination
+  lists
+    - label 77,000+
+      desc Outstanding Crown Court cases — record backlog
+      icon alert triangle
+    - label 24+ Months
+      desc Average charge-to-trial wait for many cases
+      icon clock
+    - label 37 Apps
+      desc Critical legacy applications, some dating to 1974
+      icon database
+    - label 43 Forces
+      desc Police forces with incompatible case systems
+      icon network
+theme
+  palette #0b2545 #c0392b #134e6c #2c8aa3`
+      },
+      {
+        id: 'ig-4',
+        syntax: `infographic list-zigzag-down-simple
+data
+  title The cost of waiting compounds across five dimensions
+  desc Without action the trajectory is asymmetric — every quarter delays widen
+  lists
+    - label Backlog Escalation
+      desc Crown Court backlog projected to exceed 90,000 cases by 2028
+      icon trending down
+    - label Cyber Risk
+      desc 63 of 228 government legacy IT systems rated high cyber risk by NAO
+      icon shield alert
+    - label Constitutional Challenge
+      desc Equality-of-arms challenge under Article 6 ECHR almost certain if defence omitted
+      icon gavel
+    - label Recurring Waste
+      desc 45M GBP per year on avoidable manual processes and legacy maintenance
+      icon coin
+    - label Window Closing
+      desc Cross-party Leveson support exists now; opportunity will pass
+      icon hourglass
+theme
+  palette #c0392b #d4a017 #134e6c #2c8aa3 #8da9c4`
+      },
+      {
+        id: 'ig-5',
+        syntax: `infographic chart-pie-donut-pill-badge
+data
+  title Six investment themes — total 281M GBP
+  desc Programme management is the largest line because cross-agency change is the dominant delivery risk
+  values
+    - label Programme Mgmt and Change
+      value 75
+    - label Legacy Modernisation
+      value 62
+    - label AI-Assisted Justice
+      value 51
+    - label Cross-Agency Interop
+      value 46
+    - label Victim and Witness Services
+      value 25
+    - label Governance and Compliance
+      value 22
+theme
+  palette #0b2545 #134e6c #2c8aa3 #5fb6c2 #8da9c4 #d4a017`
+      },
+      {
+        id: 'ig-6',
+        syntax: `infographic sequence-roadmap-vertical-simple
+data
+  title Five-year delivery in four gated phases
+  desc Each phase must demonstrate value before the next is funded
+  sequences
+    - label Foundation
+      desc FY26/27 H1 — 15M GBP. Treasury approval, AI governance operational, procurement launched.
+      icon flag
+    - label Phase 1 — Build
+      desc FY26/27 Q3 to FY27/28 Q2 — 95M GBP. Pilot AI for prosecution AND defence; CPS-HMCTS integration; victim MVP; 10 legacy migrations.
+      icon hammer
+    - label Phase 2 — Scale
+      desc FY27/28 Q3 to FY28/29 — 120M GBP. Full AI rollout; police integration; 20 legacy migrations; full victim services.
+      icon trending up
+    - label Phase 3 — Complete
+      desc FY29/30 to FY30/31 — 51M GBP. Remaining migrations; optimisation; benefits realisation.
+      icon check circle
+theme
+  palette #0b2545 #134e6c #2c8aa3 #d4a017`
+      },
+      {
+        id: 'ig-7',
+        syntax: `infographic list-grid-badge-card
+data
+  title Six measurable outcomes by FY 2028/29
+  desc Each is owned by an accountable executive on the programme board
+  lists
+    - label Backlog
+      desc Crown Court caseload from 77,000+ to under 50,000
+      icon chart line
+    - label AI Disclosure
+      desc 80%+ of Crown Court cases using AI-assisted disclosure
+      icon document search
+    - label Defence Parity
+      desc 70%+ of defence practitioners with AI tool access
+      icon scale
+    - label Interoperability
+      desc 90%+ of case data exchanged automatically via APIs
+      icon link
+    - label Legacy
+      desc 20+ of 37 legacy applications migrated
+      icon database
+    - label Victim Experience
+      desc 20% satisfaction lift; 90%+ Victims Code compliance
+      icon heart
+theme
+  palette #0b2545 #134e6c #2c8aa3 #5fb6c2 #8da9c4 #d4a017`
+      },
+      {
+        id: 'ig-8',
+        syntax: `infographic compare-binary-horizontal-badge-card-arrow
+data
+  title 281M GBP in over five years returns 420M GBP out over ten
+  desc NPV 95M GBP at 3.5% discount; BCR 1.5:1; payback 42 months
+  compares
+    - label Investment In — 281M GBP
+      icon wallet
+      children
+        - label CAPEX
+          value 181
+          desc Build investment (M GBP)
+          icon hammer
+        - label OPEX
+          value 100
+          desc Five-year run cost (M GBP)
+          icon refresh
+    - label Benefits Out — 420M GBP
+      icon trending up
+      children
+        - label Backlog Reduction
+          value 180
+          desc Reduced remand, sitting, legal aid (M GBP)
+          icon chart line
+        - label Operational Efficiency
+          value 120
+          desc Automation, decommissioning (M GBP)
+          icon settings
+        - label AI Productivity
+          value 70
+          desc Disclosure, transcription, translation (M GBP)
+          icon brain
+        - label Risk Avoidance
+          value 50
+          desc Legacy failure, cyber risk (M GBP)
+          icon shield
+theme
+  palette #0b2545 #134e6c #2c8aa3 #d4a017`
+      },
+      {
+        id: 'ig-9',
+        syntax: `infographic list-waterfall-badge-card
+data
+  title Top five residual risks — owners and mitigations
+  desc Inherent total 298 reduced to residual 193 (35% reduction). R-002 cannot be mitigated by controls alone — it requires policy decision.
+  lists
+    - label R-002 — Equality of Arms (Critical, 20)
+      desc Mitigation — deploy prosecution and defence AI simultaneously, never separately. Owner — Lord Chancellor.
+      icon alert circle
+    - label R-001 — Treasury Funding Refusal (High, 16)
+      desc Mitigation — phased Green Book business case with stage-gate approvals. Owner — MoJ Permanent Secretary.
+      icon wallet
+    - label R-005 — AI Ethics Controversy (High, 12)
+      desc Mitigation — ATRS registration, ethics review board, judicial steering group. Owner — MoJ Chief AI Officer.
+      icon brain
+    - label R-003 — Judicial Resistance (High, 12)
+      desc Mitigation — Lead Judge for AI engaged from day one; judicial veto on case-affecting AI. Owner — Lead Judge for AI.
+      icon gavel
+    - label R-007 — Common Platform Instability (High, 12)
+      desc Mitigation — stabilise Common Platform before building on it. Owner — HMCTS CTO.
+      icon server
+theme
+  palette #c0392b #d4a017 #134e6c #2c8aa3 #8da9c4`
+      },
+      {
+        id: 'ig-10',
+        syntax: `infographic compare-quadrant-quarter-simple-card
+data
+  title Power vs Interest — 22 stakeholders across four quadrants
+  desc Manage Closely is the densest quadrant; programme board must convene all ten
+  compares
+    - label Manage Closely — Lord Chancellor, MoJ Perm Sec, MoJ CDIO, MoJ Chief AI Officer, HMCTS CEO and CTO, DPP/CPS, Lady Chief Justice, Lead Judge for AI, NPCC
+      icon target
+    - label Keep Satisfied — HM Treasury, GDS/CDDO, ICO, NAO
+      icon shield check
+    - label Keep Informed — CBA, Law Society, Magistrates Association, LAA, Victims Commissioner, Defendants, Witnesses, HMPPS
+      icon megaphone
+    - label Monitor — No stakeholders currently in this quadrant
+      icon eye
+theme
+  palette #0b2545 #134e6c #2c8aa3 #8da9c4`
+      },
+      {
+        id: 'ig-11',
+        syntax: `infographic list-grid-badge-card
+data
+  title Five non-negotiable design principles
+  desc Violations require executive sign-off via Architecture Decision Record
+  lists
+    - label Equality of Arms
+      desc No prosecution AI without defence equivalent
+      icon scale
+    - label Judicial Independence
+      desc Technology must not constrain judicial discretion
+      icon gavel
+    - label Security by Design
+      desc Defence-in-depth, zero-trust, NCSC CAF compliance
+      icon shield check
+    - label Human-Centred AI
+      desc AI augments, never replaces; humans accountable for decisions
+      icon users
+    - label Victim and Witness Protection
+      desc Enhanced access controls; anonymisation by default
+      icon lock
+theme
+  palette #0b2545 #134e6c #2c8aa3 #5fb6c2 #d4a017`
+      },
+      {
+        id: 'ig-12',
+        syntax: `infographic list-row-horizontal-icon-arrow
+data
+  title Seven concurrent UK government compliance frameworks
+  desc Design decisions are traceable to applicable framework via ArcKit governance artefacts
+  lists
+    - label GDS Service Standard
+      desc 14-point user-centred service assessment
+      icon check circle
+    - label TCoP
+      desc Technology Code of Practice
+      icon code
+    - label NCSC CAF
+      desc Cyber Assessment Framework
+      icon shield
+    - label ATRS
+      desc Algorithmic Transparency Recording Standard
+      icon document text
+    - label UK GDPR / DPA Part 3
+      desc Law-enforcement data processing
+      icon lock
+    - label Green Book
+      desc HM Treasury 5-case business case model
+      icon book
+    - label AI Playbook
+      desc Responsible public-sector AI deployment
+      icon brain
+theme
+  palette #0b2545 #134e6c #2c8aa3 #d4a017`
+      },
+      {
+        id: 'ig-13',
+        syntax: `infographic sequence-timeline-simple
+data
+  title Five gating actions, nine months
+  desc Item 3 — defence technology funding — is the binding constraint for any AI go-live
+  sequences
+    - label Q3 2026 — Treasury Spending Approval
+      desc SOBC submission with phased investment model
+      icon wallet
+    - label Q3 2026 — Establish Judicial Steering Group
+      desc Build judicial trust before any AI design begins
+      icon gavel
+    - label Q4 2026 — Resolve Defence Tech Funding
+      desc BLOCKER for AI deployment — central provision or LAA reform
+      icon scale
+    - label Q4 2026 — Procurement via Digital Marketplace
+      desc Multi-lot strategy, SME participation, G-Cloud frameworks
+      icon shopping cart
+    - label Q1 2027 — Outline Business Case (OBC)
+      desc Refined costs, market-tested estimates, OBC approval
+      icon document
+theme
+  palette #d4a017 #2c8aa3 #5fb6c2 #8da9c4 #ffffff`
+      },
+      {
+        id: 'ig-14',
+        syntax: `infographic hierarchy-tree-tech-style-badge-card
+data
+  title Fourteen ArcKit artefacts under formal review
+  desc All deck claims trace to a versioned source document
+  root
+    label ARC-001 Criminal Courts Reform
+    children
+      - label Strategic Foundations
+        children
+          - label STKE — Stakeholders
+          - label RISK — Risk Register
+          - label STRAT — Architecture Strategy
+          - label STRY — Project Story
+      - label Business Case
+        children
+          - label SOBC — Strategic Outline
+          - label REQ — Requirements
+      - label Design
+        children
+          - label PLAT — Platform Design
+          - label DPIA — Data Protection
+          - label WARD — Wardley Maps (x2)
+      - label Procurement and Compliance
+        children
+          - label SOW — Statement of Work
+          - label TCOP — Tech Code of Practice
+          - label ANAL — Governance Analysis
+theme
+  palette #0b2545 #134e6c #2c8aa3 #5fb6c2 #d4a017`
+      }
+    ];
+
+    function renderAll() {
+      slides.forEach(s => {
+        try {
+          const ig = new AntVInfographic.Infographic({
+            container: '#' + s.id,
+            width: '100%',
+            height: '100%'
+          });
+          ig.render(s.syntax);
+        } catch (e) {
+          console.error('Render error on ' + s.id, e);
+          const el = document.querySelector('#' + s.id);
+          if (el) {
+            el.innerHTML = '<div style="padding:24px;color:#c0392b;font-size:13px">Failed to render: ' + e.message + '</div>';
+          }
+        }
+      });
+    }
+
+    if (window.AntVInfographic) {
+      renderAll();
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(renderAll).catch(() => {});
+      }
+    } else {
+      window.addEventListener('load', () => {
+        renderAll();
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(renderAll).catch(() => {});
+        }
+      });
+    }
+  </script>
+</body>
+</html>
