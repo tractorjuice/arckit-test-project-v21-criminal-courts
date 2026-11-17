@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T06:41:32.457Z",
+  "generated": "2026-11-17T10:08:08.207Z",
   "repository": {
     "name": "arckit-test-project-v21-criminal-courts"
   },
@@ -9,655 +9,1754 @@
       "path": "docs/guides/adr.md",
       "title": "Architecture Decision Record (ADR) Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/ai-playbook.md",
-      "title": "AI Playbook Assessment Playbook",
+      "title": "AI Playbook for the UK Government: the 10 principles",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/analyze.md",
       "title": "Project Analysis Playbook",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/archify.md",
+      "title": "Interactive Diagram Guide",
+      "category": "Architecture",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/artifact-health.md",
       "title": "Artifact Health Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/atrs.md",
       "title": "Algorithmic Transparency Recording Standard Playbook",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/autoresearch.md",
       "title": "Autoresearch Guide: Self-Improving Command Prompts",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/aws-documentation-mcp.md",
+      "title": "AWS documentation MCP servers: Knowledge, Documentation, AWS MCP",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/aws-research.md",
-      "title": "AWS Technology Research Guide",
+      "title": "AWS Well-Architected Framework: the six pillars and AWS research",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/azure-research.md",
       "title": "Azure Technology Research Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/backlog.md",
-      "title": "Product Backlog Quick Guide",
+      "title": "Product backlog and user story template",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/build.md",
+      "title": "Build Harness Guide",
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/business-case.md",
       "title": "Strategic Outline Business Case (SOBC) Guide",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/byo-llm.md",
+      "title": "Bring Your Own LLM",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/c4-layout-science.md",
       "title": "C4 Layout Science Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
       "title": "UK Government Codes of Practice — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/competitors.md",
+      "title": "Competitor Landscape Guide",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/conformance.md",
       "title": "Architecture Conformance Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/custom-commands.md",
+      "title": "Custom Commands Authoring Guide",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
-      "category": "Getting Started",
-      "status": "live"
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/data-mesh-contract.md",
-      "title": "Data Mesh Contract Quick Guide",
+      "title": "Data mesh and data contracts: a data product contract guide",
       "category": "Architecture",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-model.md",
-      "title": "Data Model Quick Guide",
+      "title": "Data model: entity relationship diagram (ERD) and logical model",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-quality-framework.md",
       "title": "UK Government Data Quality Framework — ArcKit Reference Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/datascout.md",
       "title": "Data Source Discovery Guide",
       "category": "Discovery",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/design-review.md",
       "title": "Design Review Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/devops.md",
       "title": "DevOps Strategy Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dfd.md",
-      "title": "Data Flow Diagram Guide",
+      "title": "Data flow diagram (DFD): Yourdon-DeMarco symbols and levels",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/diagram.md",
-      "title": "Architecture Diagram Guide",
+      "title": "C4 model architecture diagrams: context, container and component",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dld-review.md",
       "title": "Detailed Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dos.md",
       "title": "Digital Outcomes and Specialists Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dpia.md",
-      "title": "Data Protection Impact Assessment (DPIA) Guide",
+      "title": "Data protection impact assessment (DPIA): when you need one and how",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/enterprise-scale.md",
       "title": "ArcKit at Enterprise Scale",
-      "category": "Other",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/eu-ai-act.md",
-      "title": "EU AI Act Compliance Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-cra.md",
-      "title": "EU Cyber Resilience Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-data-act.md",
-      "title": "EU Data Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-dora.md",
-      "title": "EU DORA Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-dsa.md",
-      "title": "EU Digital Services Act Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-nis2.md",
-      "title": "EU NIS2 Directive Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/eu-rgpd.md",
-      "title": "EU GDPR Compliance Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/evaluate.md",
       "title": "Vendor Evaluation Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/export-okf.md",
+      "title": "`/arckit:export-okf` - Open Knowledge Format export",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/finops.md",
-      "title": "FinOps Strategy Playbook",
+      "title": "FinOps framework: a guide to cloud cost management",
       "category": "Operations",
-      "status": "experimental"
-    },
-    {
-      "path": "docs/guides/fr-algorithme-public.md",
-      "title": "French Public Algorithm Transparency Notice Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-anssi-carto.md",
-      "title": "ANSSI IS Cartography Playbook",
-      "category": "Architecture",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-anssi.md",
-      "title": "ANSSI Security Posture Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-code-reuse.md",
-      "title": "French Public Code Reuse Assessment Playbook",
-      "category": "Architecture",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-dinum.md",
-      "title": "DINUM Digital Standards Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-dr.md",
-      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
-      "category": "Governance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-ebios.md",
-      "title": "EBIOS Risk Manager Playbook",
-      "category": "Governance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-irn.md",
-      "title": "IRN — Indice de Résilience Numérique Playbook",
-      "category": "Other",
-      "status": "beta"
-    },
-    {
-      "path": "docs/guides/fr-marche-public.md",
-      "title": "French Public Procurement Playbook",
-      "category": "Procurement",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-pssi.md",
-      "title": "PSSI (Information System Security Policy) Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-rgpd.md",
-      "title": "French GDPR / CNIL Compliance Playbook",
-      "category": "Compliance",
-      "status": "community"
-    },
-    {
-      "path": "docs/guides/fr-secnumcloud.md",
-      "title": "SecNumCloud Qualification Assessment Playbook",
-      "category": "Compliance",
-      "status": "community"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/framework.md",
       "title": "Framework Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-clarify.md",
       "title": "G-Cloud Clarification Questions Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-search.md",
-      "title": "G-Cloud Search Playbook",
+      "title": "G-Cloud 15 (and G-Cloud 14): searching the Digital Marketplace",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcp-research.md",
-      "title": "Google Cloud Technology Research Guide",
+      "title": "Google Cloud research with the Developer Knowledge MCP server",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/glossary.md",
       "title": "Glossary Guide",
       "category": "Reporting",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-code-search.md",
       "title": "Government Code Search Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-landscape.md",
       "title": "Government Code Landscape Analysis Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-reuse.md",
       "title": "Government Code Reuse Assessment Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/govs-007-security.md",
       "title": "GovS 007: Security — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/grants.md",
+      "title": "Innovate UK grants and UK government funding: a research guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/graph-report.md",
+      "title": "`/arckit:graph-report` — governance metrics dashboard",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/health.md",
       "title": "Health Check Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hld-review.md",
       "title": "High-Level Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hooks.md",
       "title": "Hooks Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/impact.md",
       "title": "Impact Analysis",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/import-okf.md",
+      "title": "`/arckit:import-okf` - Open Knowledge Format import",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/init.md",
       "title": "Init Guide",
       "category": "Getting Started",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/jsp-936.md",
-      "title": "JSP 936 AI Assurance Guide",
+      "title": "JSP 936: Dependable AI in Defence and how to evidence it",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/maturity-model.md",
       "title": "Maturity Model Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mcp-servers.md",
       "title": "ArcKit Plugin Setup Guide",
-      "category": "Integrations",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/microsoft-learn-mcp.md",
+      "title": "Microsoft Learn MCP server: setup, tools and endpoint",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
       "category": "Planning",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mlops.md",
-      "title": "MLOps Strategy Playbook",
+      "title": "MLOps framework: model lifecycle and maturity guide",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mod-secure.md",
-      "title": "MOD Secure by Design Playbook",
+      "title": "MOD Secure by Design: the 7 principles and assessment",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
       "title": "UK National Data Strategy — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/navigator.md",
+      "title": "`/arckit:navigator` — what should I do next?",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/nl-overlay.md",
+      "title": "Netherlands Public Sector Overlay Guide",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
     },
     {
       "path": "docs/guides/operationalize.md",
       "title": "Operational Readiness Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
       "category": "Reporting",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pinecone-mcp.md",
       "title": "Pinecone MCP Integration Guide",
-      "category": "Integrations",
-      "status": "experimental"
+      "category": "Plugin Operations",
+      "status": "experimental",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/plan.md",
       "title": "Project Plan Playbook",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/platform-design.md",
       "title": "Platform Strategy Design Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/presentation.md",
       "title": "Presentation Guide",
       "category": "Reporting",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles-compliance.md",
       "title": "Principles Compliance Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/procurement.md",
       "title": "Vendor Procurement Guide",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/remote-control.md",
       "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/requirements.md",
-      "title": "Requirements Guide",
+      "title": "Non-functional requirements and the business requirements document",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk-management.md",
       "title": "Risk Management Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk.md",
-      "title": "Risk Register Playbook",
+      "title": "Risk register: template and Orange Book guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/roadmap.md",
       "title": "Architecture Roadmap Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/score.md",
       "title": "Vendor Scoring",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/search.md",
       "title": "Project Search",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/secure.md",
-      "title": "Secure by Design Playbook",
+      "title": "Secure by Design for UK government: the 10 principles and assessment",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/security-hooks.md",
       "title": "Security Hooks Guide",
-      "category": "Compliance",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/service-assessment.md",
-      "title": "GDS Service Assessment Guide",
+      "title": "GDS Service Standard assessment: the 14 points and how to prepare",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/servicenow.md",
-      "title": "ServiceNow Service Design Playbook",
+      "title": "CMDB and ServiceNow service design: a practical guide",
       "category": "Integrations",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/session-memory.md",
       "title": "Session Memory",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/sobc.md",
-      "title": "Strategic Outline Business Case Playbook",
+      "title": "Business case template: Green Book five case model and SOBC",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/sow.md",
-      "title": "Statement of Work Playbook",
+      "title": "Statement of work (SOW): template and what to include",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholder-analysis.md",
       "title": "Stakeholder Analysis Guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholders.md",
-      "title": "Stakeholder Analysis Playbook",
+      "title": "Stakeholder mapping and analysis: power/interest grid guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/start.md",
       "title": "Getting Started with ArcKit",
       "category": "Getting Started",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/story.md",
       "title": "Project Story Guide",
       "category": "Reporting",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/strategy.md",
       "title": "Architecture Strategy Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/tcop.md",
-      "title": "Technology Code of Practice Playbook",
+      "title": "Technology Code of Practice (TCoP): 13 points and assessment evidence",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/template-builder.md",
       "title": "Template Builder Guide",
-      "category": "Getting Started",
-      "status": "alpha"
+      "category": "Plugin Operations",
+      "status": "alpha",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/tenders.md",
+      "title": "Find a Tender and Contracts Finder: UK public contract award data",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/traceability.md",
-      "title": "Traceability Guide",
+      "title": "Requirements traceability matrix: guide and template",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/trello.md",
       "title": "Trello Export Quick Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/upgrading.md",
       "title": "Upgrading ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/wardley-climate.md",
       "title": "Climate Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-doctrine.md",
       "title": "Doctrine Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-gameplay.md",
       "title": "Gameplay Analysis Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-value-chain.md",
       "title": "Value Chain Decomposition Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley.md",
-      "title": "Wardley Mapping Playbook",
-      "category": "Architecture",
-      "status": "experimental"
+      "title": "Wardley mapping: value chains, evolution and build vs buy",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/agent-design.md",
+      "title": "AI Agent Design Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-governance.md",
+      "title": "AI Agent Governance Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-integration.md",
+      "title": "AI Agent Integration Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-inventory.md",
+      "title": "AI Agent Inventory Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-maturity.md",
+      "title": "AI Agent Maturity Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-security.md",
+      "title": "AI Agent Security Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-concepts.md",
+      "title": "arc42 Crosscutting Concepts Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-debt.md",
+      "title": "arc42 Technical Debt Register Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-handover.md",
+      "title": "arc42 SDD Handover Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-quality.md",
+      "title": "arc42 Quality Scenarios Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42.md",
+      "title": "arc42 Architecture Description Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/at-barrierefreiheit.md",
+      "title": "Austrian Accessibility (BaFG / WZG) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-bvergg.md",
+      "title": "Austrian Federal Procurement Act (BVergG 2018) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-dsgvo.md",
+      "title": "Austrian DSG / DSGVO Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-nisg.md",
+      "title": "Austrian NIS Act (NISG) Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/au-ai-assurance.md",
+      "title": "Australian AI Assurance Baseline Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-disp-attestation.md",
+      "title": "Australian DISP Member Self-Attestation Pack Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-dss.md",
+      "title": "Australian DTA Digital Service Standard Conformance Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-e8-posture.md",
+      "title": "Australian Essential Eight Maturity Posture Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ism-controls.md",
+      "title": "Australian ISM Statement of Applicability Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ndb-playbook.md",
+      "title": "Australian Notifiable Data Breach Response Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ot-security.md",
+      "title": "AU OT Security",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pia.md",
+      "title": "Australian Privacy Impact Assessment Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pspf.md",
+      "title": "Australian Protective Security Policy Framework Scorecard Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-soci-cirmp.md",
+      "title": "AU SOCI CIRMP",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-aescsf.md",
+      "title": "AU AESCSF Maturity Assessment",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-energy-compliance.md",
+      "title": "AU Energy Compliance Pack",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/ca-aia.md",
+      "title": "Canada Algorithmic Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-atip.md",
+      "title": "Canada ATIP Reconciliation Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-charter.md",
+      "title": "Canada Charter Rights Design Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-cloud-residency.md",
+      "title": "Canada Sovereign Cloud Residency Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-fitaa.md",
+      "title": "Canada FITAA Compliance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-gc-digital-standards.md",
+      "title": "Canada GC Digital Standards Conformance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-itsg-33.md",
+      "title": "Canada ITSG-33 Statement of Applicability Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ocap.md",
+      "title": "Canada First Nations OCAP® Sovereignty Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ola.md",
+      "title": "Canada Official Languages Act Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pia.md",
+      "title": "Canada Privacy Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pspc.md",
+      "title": "Canada Federal Procurement Strategy Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-soia.md",
+      "title": "Canada Foreign Interference and Security of Information Act Handling Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/eu-ai-act.md",
+      "title": "EU AI Act Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cloud-sovereignty.md",
+      "title": "EU Cloud Sovereignty Framework Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cra.md",
+      "title": "EU Cyber Resilience Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-data-act.md",
+      "title": "EU Data Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dora.md",
+      "title": "EU DORA Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dsa.md",
+      "title": "EU Digital Services Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-nis2.md",
+      "title": "EU NIS2 Directive Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-rgpd.md",
+      "title": "EU GDPR Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/create.md",
+      "title": "FDE Site Generator Guide",
+      "category": "FDE Site Generator",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "FDE Site Generator"
+    },
+    {
+      "path": "docs/guides/fr-algorithme-public.md",
+      "title": "French Public Algorithm Transparency Notice Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi-carto.md",
+      "title": "ANSSI IS Cartography Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi.md",
+      "title": "ANSSI Security Posture Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-code-reuse.md",
+      "title": "French Public Code Reuse Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dinum.md",
+      "title": "DINUM Digital Standards Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dr.md",
+      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-ebios.md",
+      "title": "EBIOS Risk Manager Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-irn.md",
+      "title": "IRN — Indice de Résilience Numérique Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-marche-public.md",
+      "title": "French Public Procurement Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-pssi.md",
+      "title": "PSSI (Information System Security Policy) Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-rgpd.md",
+      "title": "French GDPR / CNIL Compliance Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-secnumcloud.md",
+      "title": "SecNumCloud Qualification Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/nl-bio.md",
+      "title": "BIO2 Conformance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-cloud.md",
+      "title": "Rijksbreed Cloudbeleid Compliance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-exit.md",
+      "title": "Cloud Exit Plan (Clause 3.2) Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-gemma.md",
+      "title": "GEMMA Alignment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-nora.md",
+      "title": "NORA Conformance Assessment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-tbb.md",
+      "title": "Te Beschermen Belangen (TBB) Determination Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/agile-governance.md",
+      "title": "O-AA Agile Governance Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-security.md",
+      "title": "O-AA Agile Security Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-strategy.md",
+      "title": "O-AA Agile Strategy Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/oaa-adm-lite.md",
+      "title": "O-AA ADM Lite Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/product-architecture.md",
+      "title": "O-AA Product Architecture Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/repo-audit.md",
+      "title": "Codebase Audit Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/repo-docs.md",
+      "title": "Repository Documentation Wiki Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/adm-preliminary.md",
+      "title": "TOGAF ADM Preliminary Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-inventory.md",
+      "title": "Application Inventory Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-rationalization.md",
+      "title": "Application Rationalization Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-board.md",
+      "title": "Architecture Board Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-change.md",
+      "title": "Architecture Change Request Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-repository.md",
+      "title": "Architecture Repository Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/business-capability-map.md",
+      "title": "Business Capability Map Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/gap-analysis.md",
+      "title": "TOGAF Gap Analysis Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/transition-architecture.md",
+      "title": "Transition Architecture Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-autonomy-tier.md",
+      "title": "UAE AI Autonomy Tier Posture Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-charter.md",
+      "title": "UAE Charter for AI Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-classification.md",
+      "title": "UAE Smart Data Classification Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-cloud-residency.md",
+      "title": "UAE Sovereign Cloud Residency Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-data-sharing.md",
+      "title": "UAE Data Sharing Agreement Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-digital-records.md",
+      "title": "UAE Digital Records Plan Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ias.md",
+      "title": "UAE Information Assurance Standard (IAS) Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-pdpl.md",
+      "title": "UAE PDPL Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-priorities-alignment.md",
+      "title": "UAE National Priorities Alignment Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-procurement.md",
+      "title": "UAE Federal Procurement Strategy Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-uaepass.md",
+      "title": "UAE Pass Integration Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-zero-bureaucracy.md",
+      "title": "UAE Zero Bureaucracy & Code for Government Services Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-consumer-duty.md",
+      "title": "Consumer Duty Annual Board Report (`/arckit:uk-fs-consumer-duty`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-ctp-dependency.md",
+      "title": "Critical Third Party Dependency Assessment (`/arckit:uk-fs-ctp-dependency`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-safeguarding.md",
+      "title": "EMI / PI Safeguarding Assessment (`/arckit:uk-fs-safeguarding`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-sca-rts.md",
+      "title": "SCA-RTS Exemption Design (`/arckit:uk-fs-sca-rts`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/declaration.md",
+      "title": "G-Cloud Supplier Declaration Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/gcloud-competitors.md",
+      "title": "G-Cloud Competitor Benchmark Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/lot-questions.md",
+      "title": "G-Cloud Lot Questions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/pricing.md",
+      "title": "G-Cloud Pricing Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/review.md",
+      "title": "G-Cloud Submission Review Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1a.md",
+      "title": "G-Cloud Lot 1a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1b.md",
+      "title": "G-Cloud Lot 1b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2a.md",
+      "title": "G-Cloud Lot 2a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2b.md",
+      "title": "G-Cloud Lot 2b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot3.md",
+      "title": "G-Cloud Lot 3 Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/security.md",
+      "title": "G-Cloud Security Assertions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/service-design.md",
+      "title": "G-Cloud Service Design Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/social-value.md",
+      "title": "G-Cloud Social Value Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/submission-pack.md",
+      "title": "G-Cloud Submission Pack Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/supplier-profile.md",
+      "title": "G-Cloud Supplier Profile Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/legacy-assessment.md",
+      "title": "Legacy IT assessment",
+      "category": "UK Legacy IT Assessment Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Legacy IT Assessment Overlay"
+    },
+    {
+      "path": "docs/guides/uk-mdr-classification.md",
+      "title": "UK + EU MDR SaMD / AIaMD Classification Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0129.md",
+      "title": "NHS DCB0129 Manufacturer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0160.md",
+      "title": "NHS DCB0160 Deployer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dtac.md",
+      "title": "NHS DTAC Assessment Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-impact.md",
+      "title": "US AI Impact Assessment (OMB M-25-21 / M-25-22)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-rmf.md",
+      "title": "US NIST AI RMF Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-readiness.md",
+      "title": "US FedRAMP Readiness Self-Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-ssp.md",
+      "title": "US FedRAMP System Security Plan",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fisma-categorization.md",
+      "title": "US FIPS 199 System Categorization",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-icam.md",
+      "title": "US ICAM Architecture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-nist-800-53.md",
+      "title": "US NIST SP 800-53 Rev 5 Tailored Control Set",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-privacy-pia.md",
+      "title": "US Privacy Impact Assessment (E-Gov §208)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-sbom-eo-14028.md",
+      "title": "US EO 14028 Secure-Software Self-Attestation + SBOM",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-zero-trust.md",
+      "title": "US CISA ZTMM v2.0 Maturity Posture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
     }
   ],
   "roleGuides": [
@@ -770,12 +1869,54 @@
       "commandCount": 5
     }
   ],
+  "guideSectionOrder": [
+    "Core Workflows",
+    "Plugin and Extension Operations",
+    "Overlay Packs",
+    "Community Guides",
+    "Other / Uncategorised"
+  ],
+  "guideCategoryOrder": [
+    "Getting Started",
+    "Discovery",
+    "Planning",
+    "Architecture",
+    "Wardley Mapping",
+    "Governance",
+    "Compliance",
+    "Operations",
+    "Procurement",
+    "Interoperability",
+    "Integrations",
+    "Reporting",
+    "Plugin Operations",
+    "AI Agent Architecture Overlay",
+    "FDE Site Generator",
+    "Repository Plugin",
+    "TOGAF ADM Overlay",
+    "Open Agile Architecture Overlay",
+    "arc42 Overlay",
+    "Australian Federal / Energy Overlay",
+    "Community overlays - Austria",
+    "Canada Federal Overlay",
+    "Community overlays - EU",
+    "Community overlays - France",
+    "Community overlays - Netherlands",
+    "UAE Federal Overlay",
+    "UK G-Cloud Supplier Overlay",
+    "UK Finance Payments Overlay",
+    "UK NHS Clinical Safety Overlay",
+    "USA Federal Civilian Overlay",
+    "Community",
+    "Other"
+  ],
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
       "category": "Architecture",
       "documentId": "ARC-000-PRIN-v1.0",
+      "extension": ".md",
       "isDefault": true
     }
   ],
@@ -784,6 +1925,8 @@
     "STKE": "Discovery",
     "RSCH": "Discovery",
     "DSCT": "Discovery",
+    "TNDR": "Discovery",
+    "CMPT": "Discovery",
     "SOBC": "Planning",
     "PLAN": "Planning",
     "ROAD": "Planning",
@@ -802,13 +1945,42 @@
     "DFD": "Architecture",
     "ADR": "Architecture",
     "PLAT": "Architecture",
+    "ADMP": "Architecture",
+    "BPCM": "Architecture",
+    "APP": "Architecture",
+    "APPR": "Architecture",
+    "GAPA": "Governance",
+    "TRANS": "Planning",
+    "BORD": "Governance",
+    "ACHG": "Governance",
+    "REPO": "Architecture",
+    "AAGI": "Architecture",
+    "AAGR": "Architecture",
+    "AAOV": "Governance",
+    "AAIN": "Architecture",
+    "AASE": "Governance",
+    "AAMT": "Governance",
+    "OASTR": "Planning",
+    "OAPR": "Architecture",
+    "OAAL": "Architecture",
+    "OASEC": "Governance",
+    "OAGOV": "Governance",
+    "ARC42": "Architecture",
+    "QUAL": "Architecture",
+    "CONC": "Architecture",
+    "DEBT": "Architecture",
+    "SDDH": "Planning",
     "RISK": "Governance",
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
     "CONF": "Governance",
     "PRES": "Reporting",
+    "DECK": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
+    "CDAU": "Governance",
+    "GLOS": "Governance",
+    "FWRK": "Governance",
     "TCOP": "Compliance",
     "SECD": "Compliance",
     "SECD-MOD": "Compliance",
@@ -816,6 +1988,7 @@
     "ATRS": "Compliance",
     "DPIA": "Compliance",
     "JSP936": "Compliance",
+    "LEGACY": "Compliance",
     "SVCASS": "Compliance",
     "SNOW": "Operations",
     "DEVOPS": "Operations",
@@ -827,6 +2000,17 @@
     "DOS": "Procurement",
     "GCLD": "Procurement",
     "GCLC": "Procurement",
+    "SUPP": "Procurement",
+    "SVCD": "Procurement",
+    "SDD": "Procurement",
+    "DECL": "Procurement",
+    "PRIC": "Procurement",
+    "SECA": "Procurement",
+    "GCMP": "Procurement",
+    "GCRV": "Procurement",
+    "SOCV": "Procurement",
+    "LOTQ": "Procurement",
+    "RATE": "Procurement",
     "DMC": "Procurement",
     "VEND": "Procurement",
     "AWRS": "Research",
@@ -844,6 +2028,7 @@
     "CRA": "Compliance",
     "DSA": "Compliance",
     "DATAACT": "Compliance",
+    "EUCSF": "Compliance",
     "IRN": "Governance",
     "CNIL": "Compliance",
     "SECNUM": "Compliance",
@@ -856,9 +2041,69 @@
     "ALGO": "Compliance",
     "PSSI": "Compliance",
     "REUSE": "Procurement",
+    "ATBFR": "Compliance",
     "ATDSG": "Compliance",
     "ATNISG": "Compliance",
-    "BVERGG": "Procurement"
+    "BVERGG": "Procurement",
+    "PDPL": "Compliance",
+    "IAS": "Compliance",
+    "CRES": "Architecture",
+    "CLAS": "Governance",
+    "UPASS": "Architecture",
+    "ZBUR": "Governance",
+    "DREC": "Governance",
+    "DSHR": "Governance",
+    "NPRA": "Governance",
+    "AICH": "Compliance",
+    "AUTI": "Architecture",
+    "FPRO": "Procurement",
+    "FITAA": "Compliance",
+    "PIA": "Compliance",
+    "ATIP": "Compliance",
+    "AIA": "Compliance",
+    "CHRT": "Governance",
+    "ITSG": "Architecture",
+    "SOIA": "Compliance",
+    "CACR": "Architecture",
+    "DIGSTD": "Governance",
+    "OLA": "Compliance",
+    "PROC": "Procurement",
+    "OCAP": "Governance",
+    "FIPS199": "Compliance",
+    "NIST": "Architecture",
+    "FRSSP": "Compliance",
+    "FRRR": "Compliance",
+    "ZTA": "Architecture",
+    "ICAM": "Architecture",
+    "AIRMF": "Compliance",
+    "AIIA": "Compliance",
+    "USPIA": "Compliance",
+    "SBOM": "Compliance",
+    "AUE8": "Compliance",
+    "AUISM": "Compliance",
+    "AUPIA": "Compliance",
+    "AUNDB": "Compliance",
+    "AUOT": "Compliance",
+    "AUSOCI": "Compliance",
+    "AUAESCSF": "Compliance",
+    "AUENERGY": "Compliance",
+    "AUDSS": "Governance",
+    "AUPSPF": "Governance",
+    "AUAIA": "Compliance",
+    "AUDISP": "Compliance",
+    "RBCLOUD": "Compliance",
+    "TBB": "Compliance",
+    "BIO2": "Compliance",
+    "NLEXIT": "Governance",
+    "NORA": "Governance",
+    "GEMMA": "Architecture",
+    "FSSCA": "Compliance",
+    "FSSAFE": "Compliance",
+    "FSCD": "Compliance",
+    "FSCTP": "Compliance",
+    "NHSDTAC": "Compliance",
+    "NHSMDR": "Compliance",
+    "MMOD": "Governance"
   },
   "globalExternal": [
     {
@@ -891,111 +2136,137 @@
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-ANAL-v1.0.md",
           "title": "Analysis Report",
           "category": "Governance",
-          "documentId": "ARC-001-ANAL-v1.0"
+          "documentId": "ARC-001-ANAL-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-DECK-v1.0.html",
+          "title": "Executive Deck",
+          "category": "Reporting",
+          "documentId": "ARC-001-DECK-v1.0",
+          "extension": ".html"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-DPIA-v1.0.md",
           "title": "Data Protection Impact Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-DPIA-v1.0"
+          "documentId": "ARC-001-DPIA-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-PLAT-v1.0.md",
           "title": "Platform Design",
           "category": "Architecture",
-          "documentId": "ARC-001-PLAT-v1.0"
+          "documentId": "ARC-001-PLAT-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
           "category": "Discovery",
-          "documentId": "ARC-001-REQ-v1.0"
+          "documentId": "ARC-001-REQ-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-RISK-v1.0.md",
           "title": "Risk Register",
           "category": "Governance",
-          "documentId": "ARC-001-RISK-v1.0"
+          "documentId": "ARC-001-RISK-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOBC-v1.0.md",
           "title": "Strategic Outline Business Case",
           "category": "Planning",
-          "documentId": "ARC-001-SOBC-v1.0"
+          "documentId": "ARC-001-SOBC-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-SOW-v1.0.md",
           "title": "Statement of Work",
           "category": "Procurement",
-          "documentId": "ARC-001-SOW-v1.0"
+          "documentId": "ARC-001-SOW-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STKE-v1.0.md",
           "title": "Stakeholder Analysis",
           "category": "Discovery",
-          "documentId": "ARC-001-STKE-v1.0"
+          "documentId": "ARC-001-STKE-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STORY-v1.0.md",
           "title": "Project Story",
           "category": "Reporting",
-          "documentId": "ARC-001-STORY-v1.0"
+          "documentId": "ARC-001-STORY-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STORY-v1.1.md",
           "title": "Project Story",
           "category": "Reporting",
-          "documentId": "ARC-001-STORY-v1.1"
+          "documentId": "ARC-001-STORY-v1.1",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRAT-v1.0.md",
           "title": "Architecture Strategy",
           "category": "Planning",
-          "documentId": "ARC-001-STRAT-v1.0"
+          "documentId": "ARC-001-STRAT-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-TCOP-v1.0.md",
           "title": "TCoP Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-TCOP-v1.0"
+          "documentId": "ARC-001-TCOP-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/ARC-001-TCOP-v1.1.md",
           "title": "TCoP Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-TCOP-v1.1"
+          "documentId": "ARC-001-TCOP-v1.1",
+          "extension": ".md"
         }
       ],
       "wardleyMaps": [
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-001-v1.0.md",
           "title": "Wardley Map: Criminal Courts Technology & AI Reform — Current State & Procurement Strategy",
-          "documentId": "ARC-001-WARD-001-v1.0"
+          "documentId": "ARC-001-WARD-001-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WARD-002-v1.0.md",
           "title": "Wardley Map: Criminal Courts Technology & AI Reform — 24-Month Future State",
-          "documentId": "ARC-001-WARD-002-v1.0"
+          "documentId": "ARC-001-WARD-002-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WCLM-001-v1.0.md",
           "title": "Wardley Climate Assessment: Criminal Courts Technology & AI Reform",
-          "documentId": "ARC-001-WCLM-001-v1.0"
+          "documentId": "ARC-001-WCLM-001-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WDOC-v1.0.md",
           "title": "Wardley Doctrine Assessment: Criminal Courts Technology & AI Reform",
-          "documentId": "ARC-001-WDOC-v1.0"
+          "documentId": "ARC-001-WDOC-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WGAM-001-v1.0.md",
           "title": "Wardley Gameplay Analysis: Criminal Courts Technology & AI Reform",
-          "documentId": "ARC-001-WGAM-001-v1.0"
+          "documentId": "ARC-001-WGAM-001-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-criminal-courts-technology-and-ai-reform/wardley-maps/ARC-001-WVCH-001-v1.0.md",
           "title": "Wardley Value Chain: Criminal Courts Technology & AI Reform",
-          "documentId": "ARC-001-WVCH-001-v1.0"
+          "documentId": "ARC-001-WVCH-001-v1.0",
+          "extension": ".md"
         }
       ]
     }
@@ -1010,7 +2281,35 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-000-PRIN-v1.0",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "Criminal Courts Technology & AI Reform (Project 000)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-04",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Criminal Justice Technology Leadership"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 286
+        }
       },
       "ARC-001-ANAL-v1.0": {
         "type": "ANAL",
@@ -1020,7 +2319,93 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "Enterprise Architect",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-ANAL-v1.0",
+          "Document Type": "Governance Quality Analysis",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-05-04",
+          "Owner": "Enterprise Architect",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Programme Board",
+          "Author": "Enterprise Architect",
+          "Approver": "Programme Board",
+          "CRITICAL": "5",
+          "HIGH": "8",
+          "MEDIUM": "12",
+          "LOW": "6",
+          "TOTAL": "**31**",
+          "Overall": "**66/100**"
+        },
+        "reqIds": [
+          "DR-001",
+          "DR-004",
+          "NFR-C-003",
+          "FR-001",
+          "FR-014",
+          "FR-006",
+          "NFR-P-001",
+          "NFR-A-001",
+          "BR-002",
+          "FR-002",
+          "FR-003",
+          "NFR-S-002",
+          "BR-001",
+          "BR-010",
+          "FR-007",
+          "BR-006",
+          "BR-005",
+          "FR-010",
+          "BR-004",
+          "INT-001",
+          "NFR-I-001",
+          "NFR-SEC-001",
+          "NFR-C-005",
+          "NFR-S-001",
+          "NFR-M-001",
+          "NFR-C-001",
+          "NFR-SEC-003",
+          "INT-004",
+          "NFR-P-002",
+          "NFR-U-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-I-002",
+          "BR-003",
+          "FR-009",
+          "BR-007",
+          "INT-002",
+          "INT-003",
+          "INT-005",
+          "BR-008",
+          "NFR-C-004",
+          "FR-011",
+          "NFR-U-003",
+          "FR-008",
+          "NFR-SEC-002",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-C-002"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-DPIA-v1.0": {
         "type": "DPIA",
@@ -1030,7 +2415,113 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-02-05",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-DPIA-v1.0",
+          "Document Type": "Data Protection Impact Assessment",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-05",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-05",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Data Protection Officer, MoJ Chief AI Officer, HMCTS CDIO, CPS CDO, ICO (for consultation), Programme Board",
+          "Project Name": "Criminal Courts Technology & AI Reform",
+          "Assessment Date": "2026-02-05",
+          "Data Protection Officer": "MoJ DPO",
+          "Data Controller": "The organisation that determines the purposes and means of processing personal data",
+          "Author": "Enterprise Architect",
+          "Defendants": "Individuals charged with criminal offences",
+          "Victims": "Complainants and victims of crime",
+          "Witnesses": "Prosecution and defence witnesses",
+          "CPS Prosecutors": "Crown Prosecution Service lawyers",
+          "Defence Practitioners": "Barristers and solicitors (criminal defence)",
+          "Police Officers": "Officers providing evidence and case files",
+          "Court Staff": "HMCTS court administrators and clerks",
+          "Judges and Magistrates": "Judicial officers",
+          "Probation Officers": "HMPPS officers receiving sentencing data",
+          "Low Likelihood": "LOW",
+          "Medium Likelihood": "LOW",
+          "High Likelihood": "MEDIUM",
+          "Senior Responsible Owner": "MoJ CDIO",
+          "Periodic review": "6 months",
+          "Post-implementation review": "3 months after each major deployment phase",
+          "Annual review": "Annually",
+          "AI model review": "On each model update or retrain",
+          "Architecture Principles": "`projects/000-global/ARC-000-PRIN-v1.0.md`",
+          "Requirements": "`projects/001-criminal-courts-technology-and-ai-reform/ARC-001-REQ-v1.0.md`",
+          "Stakeholder Analysis": "`projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STKE-v1.0.md`",
+          "Risk Register": "`projects/001-criminal-courts-technology-and-ai-reform/ARC-001-RISK-v1.0.md`",
+          "Architecture Strategy": "`projects/001-criminal-courts-technology-and-ai-reform/ARC-001-STRAT-v1.0.md`",
+          "Platform Design": "`projects/001-criminal-courts-technology-and-ai-reform/ARC-001-PLAT-v1.0.md`",
+          "Data Model": "*Not yet generated*",
+          "Secure by Design Assessment": "*Not yet generated*",
+          "(a) Lawfulness, fairness, transparency": "COMPLIANT",
+          "(b) Purpose limitation": "COMPLIANT",
+          "(c) Data minimization": "COMPLIANT",
+          "(d) Accuracy": "COMPLIANT",
+          "(e) Storage limitation": "COMPLIANT",
+          "(f) Integrity and confidentiality": "COMPLIANT",
+          "Accountability": "PARTIAL",
+          "Data Subject": "An identified or identifiable natural person whose personal data is being processed",
+          "Data Processor": "An organisation that processes personal data on behalf of the controller",
+          "Personal Data": "Any information relating to an identified or identifiable natural person",
+          "Special Category Data": "Sensitive personal data (race, health, biometric, etc.) requiring Article 9 basis",
+          "Criminal Offence Data": "Data relating to criminal convictions and offences (Article 10 UK GDPR / DPA 2018 Part 3)",
+          "Processing": "Any operation performed on personal data (collection, storage, use, disclosure, deletion)",
+          "Profiling": "Automated processing to evaluate personal aspects (predict performance, behaviour, preferences)",
+          "Pseudonymization": "Processing that prevents identification without additional information kept separately",
+          "Anonymization": "Irreversibly removing identifying information so re-identification is not possible",
+          "Lawful Basis": "Legal ground for processing under GDPR Article 6 (consent, contract, legal obligation, etc.)",
+          "DPIA": "Data Protection Impact Assessment — required for high-risk processing",
+          "ICO": "Information Commissioner's Office — UK data protection supervisory authority",
+          "UK GDPR": "UK General Data Protection Regulation (retained EU GDPR post-Brexit)",
+          "DPA 2018": "Data Protection Act 2018 — UK law supplementing GDPR",
+          "DPA 2018 Part 3": "Law enforcement processing provisions of the Data Protection Act 2018, implementing the EU Law Enforcement Directive",
+          "ATRS": "Algorithmic Transparency Recording Standard — UK Government requirement for public sector algorithmic tools",
+          "RASSO": "Rape and Serious Sexual Offences — cases requiring enhanced data protections",
+          "PNC": "Police National Computer — national database of criminal records",
+          "NCSC CAF": "National Cyber Security Centre Cyber Assessment Framework",
+          "SCC": "Standard Contractual Clauses — mechanism for international data transfers (not applicable — UK-only processing)",
+          "Joint Controller": "Two or more controllers that jointly determine purposes and means of processing"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-007",
+          "DR-003",
+          "DR-001",
+          "DR-002",
+          "BR-004",
+          "DR-004",
+          "FR-002",
+          "FR-003",
+          "FR-009",
+          "NFR-DP-001",
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "BR-010",
+          "FR-014"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-PLAT-v1.0": {
         "type": "PLAT",
@@ -1040,7 +2531,158 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-02-05",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-PLAT-v1.0",
+          "Document Type": "Platform Strategy Design",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-05",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-05",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, LAA, Criminal Bar Association, Law Society, Judiciary",
+          "Outstanding Crown Court Cases": "77,000+",
+          "Charge-to-Trial Time": "18+ months",
+          "Automated Data Exchange": "<10%",
+          "Defence AI Tool Access": "0%",
+          "Victim Case Tracking Adoption": "0%",
+          "Legacy Applications Migrated": "0 of 37",
+          "E-001": "Defence Barristers",
+          "E-002": "Defence Solicitors",
+          "E-003": "CPS Prosecutors",
+          "E-004": "Expert Witnesses",
+          "E-005": "Interpreters & Translators",
+          "E-006": "Court Reporters",
+          "E-007": "Victim Support Workers",
+          "E-008": "Defendants",
+          "E-009": "Victims",
+          "E-010": "Witnesses",
+          "E-011": "Public / Society",
+          "E-012": "Judiciary (Judges & Magistrates)",
+          "E-013": "Police Forces (43)",
+          "E-014": "HMPPS (Prisons & Probation)",
+          "E-015": "Legal Aid Agency",
+          "E-016": "Regulators (SRA, BSB, ICO)",
+          "Defence Barrister": "—",
+          "Victim": "**TENSION**: Defence cross-examination is traumatic",
+          "CPS Prosecutor": "**CONFLICT**: Adversarial; disclosure obligations vs. case strength",
+          "Judge": "**ALIGNED**: Both want fair trials",
+          "Police": "**TENSION**: Defence challenges evidence quality",
+          "T-001": "Case File Submission",
+          "T-002": "Disclosure Review",
+          "T-003": "Defence Case Preparation",
+          "T-004": "Court Listing",
+          "T-005": "Witness Scheduling",
+          "T-006": "Victim Case Updates",
+          "T-007": "Expert Witness Instruction",
+          "T-008": "Interpreter Booking",
+          "T-009": "Legal Aid Application",
+          "T-010": "Legal Aid Claim",
+          "T-011": "Sentence Data Transfer",
+          "T-012": "Pre-Sentence Report",
+          "T-013": "Plea Entry",
+          "T-014": "Trial Transcription",
+          "T-015": "Remote Evidence",
+          "TOTAL Transaction Costs": "**£930/case**",
+          "1. Charge": "Police complete investigation; CPS authorise charge",
+          "2. First Hearing": "Defendant appears; plea entered; case management",
+          "3. Disclosure": "CPS reviews evidence; serves disclosure on defence",
+          "4. Defence Preparation": "Defence reviews disclosure; prepares case",
+          "5. Case Management": "Judge reviews; directions given; trial date set",
+          "6. Witness Preparation": "Witnesses notified; special measures arranged",
+          "7. Victim Updates": "Victim informed of progress throughout",
+          "8. Trial": "Evidence presented; verdict reached",
+          "9. Sentence": "Judge passes sentence; data transferred to HMPPS",
+          "10. Outcome Communication": "All parties notified of outcome",
+          "1. Report": "Reports crime to police",
+          "2. Investigation": "Provides statement; awaits update",
+          "3. Charge Decision": "Notified of charge/no charge",
+          "4. Court Process Begins": "Registered for case tracking",
+          "5. Disclosure Period": "— (not involved)",
+          "6. Case Management": "May be asked about special measures",
+          "7. Trial Listed": "Notified of trial date",
+          "8. Trial Attendance": "Attends (in person or remote)",
+          "9. Verdict": "Notified of verdict",
+          "10. Sentence": "Notified of sentence; can submit VPS",
+          "11. Post-Case": "Access to support; feedback opportunity",
+          "Police Forces Connected": "5+ forces",
+          "Digital Case Files Submitted": "5,000+",
+          "CPS AI Disclosure Adoption": "70%+ of pilot cases",
+          "Defence AI Adoption": "50%+ of pilot practitioners",
+          "Disclosure Time Reduction": "40%+",
+          "Victim Tracking Registration": "60%+ of eligible victims",
+          "Victim Satisfaction Improvement": "15%+",
+          "AI Transcription Accuracy": "95%+",
+          "Judicial Acceptance": "No AI rejected by steering group",
+          "Equality of Arms": "Zero legal challenges",
+          "Defence Practitioner NPS": "+20 or higher",
+          "Data Entry Error Rate": "<2%",
+          "Subtotal Capital": "**£42M**",
+          "Total Phase 1": "**£53M**",
+          "Supply Side": "Defence barristers, defence solicitors, CPS prosecutors, expert witnesses, interpreters, court reporters, victim support workers",
+          "Demand Side": "Defendants, victims, witnesses, the public",
+          "Platform Operator": "HMCTS (court services), MoJ (policy and oversight)",
+          "Supporting Entities": "Judiciary, 43 police forces, HMPPS, Legal Aid Agency, regulators",
+          "Point 1: User needs": "Extensive user research with all entity types",
+          "Point 3: Accessible": "WCAG 2.2 AA compliance; multi-language support",
+          "Point 4: Open standards": "OpenAPI, AsyncAPI, open data formats",
+          "Point 5: Cloud first": "Azure UK regions (MoJ standard)",
+          "Point 6: Secure": "NCSC CAF; Cyber Essentials Plus; penetration testing",
+          "Point 8: Share, reuse": "Common components; API catalogue; open design patterns",
+          "2: Solve whole problem": "End-to-end case journey, not point solutions",
+          "5: Inclusive": "Accessible to all participants including vulnerable users",
+          "9: Secure": "Highest security standards for criminal justice data",
+          "11: Choose right tools": "Cloud-native; appropriate technology for each component",
+          "13: Common components": "GOV.UK Notify, Pay, Design System integration",
+          "DPA 2018 Part 3": "Law enforcement processing compliance; DPIAs",
+          "UK GDPR": "Data minimisation; purpose limitation; subject rights",
+          "AI Playbook": "10 principles; responsible AI deployment",
+          "ATRS": "All AI tools registered with algorithmic transparency",
+          "Victims' Code": "Automated compliance monitoring",
+          "Criminal Procedure Rules": "Case management aligned with CPR requirements"
+        },
+        "reqIds": [
+          "BR-003",
+          "FR-009",
+          "FR-006",
+          "FR-001",
+          "FR-005",
+          "BR-007",
+          "FR-007",
+          "FR-013",
+          "FR-008",
+          "BR-002",
+          "FR-004",
+          "FR-002",
+          "INT-001",
+          "NFR-A-001",
+          "FR-011",
+          "BR-004",
+          "INT-002",
+          "DR-001",
+          "BR-001",
+          "FR-003",
+          "NFR-SEC-001",
+          "BR-005",
+          "BR-006"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
@@ -1050,7 +2692,96 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-REQ-v1.0",
+          "Document Type": "Business and Technical Requirements",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-06",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, Criminal Justice Technology Leadership"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "BR-008",
+          "BR-009",
+          "BR-010",
+          "FR-001",
+          "INT-002",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "DR-001",
+          "FR-005",
+          "FR-006",
+          "INT-001",
+          "FR-007",
+          "FR-008",
+          "FR-009",
+          "FR-010",
+          "FR-011",
+          "FR-012",
+          "INT-004",
+          "FR-013",
+          "FR-014",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-C-005",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-I-001",
+          "NFR-I-002",
+          "INT-003",
+          "INT-005",
+          "INT-006",
+          "DR-002",
+          "DR-003",
+          "DR-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-RISK-v1.0": {
         "type": "RISK",
@@ -1060,7 +2791,65 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RISK-v1.0",
+          "Document Type": "Risk Register",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-03-06",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Criminal Justice Technology Leadership, Programme Board",
+          "TOTAL Score": "298",
+          "STRATEGIC": "4",
+          "OPERATIONAL": "4",
+          "FINANCIAL": "3",
+          "COMPLIANCE": "4",
+          "REPUTATIONAL": "2",
+          "TECHNOLOGY": "3",
+          "Likelihood": "3 - Possible",
+          "Impact": "4 - Major",
+          "Inherent Risk Score": "**20** (Critical)",
+          "Residual Risk Score": "**12** (Medium)",
+          "TOLERATE": "3",
+          "TREAT": "17",
+          "TRANSFER": "0",
+          "TERMINATE": "0",
+          "TOTAL": "20",
+          "Critical (20-25)": "Weekly",
+          "High (13-19)": "Bi-weekly",
+          "Medium (6-12)": "Monthly",
+          "Low (1-5)": "Quarterly",
+          "Risk Register Owner": "Programme Director",
+          "Senior Responsible Owner": "MoJ Permanent Secretary",
+          "Steering Committee Chair": "MoJ CDIO"
+        },
+        "reqIds": [
+          "FR-009",
+          "BR-006",
+          "FR-006",
+          "NFR-U-003",
+          "BR-001",
+          "BR-010"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-SOBC-v1.0": {
         "type": "SOBC",
@@ -1070,7 +2859,55 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "MoJ Permanent Secretary (Senior Responsible Owner)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SOBC-v1.0",
+          "Document Type": "Strategic Outline Business Case (SOBC)",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-04",
+          "Owner": "MoJ Permanent Secretary (Senior Responsible Owner)",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Lord Chancellor, MoJ Permanent Secretary, MoJ CDIO, HMCTS CEO, DPP/CPS, Lady Chief Justice's Office, HM Treasury Spending Team, IPA, NAO",
+          "Capital": "|",
+          "Subtotal Capital": "**£42M**",
+          "Operational": "|",
+          "Subtotal Operational": "**£11M**",
+          "Total Annual Cost": "**£53M**",
+          "Total Benefits": "|",
+          "Total": "**£401M**",
+          "Total CapEx": "**£42M**",
+          "Total OpEx": "**£11M**",
+          "Total TCO": "**£53M**",
+          "Programme Completion": "**Q4 2030**",
+          "Total Internal FTE": "**~16**",
+          "Investment": "£281M over 5 years (£326M with optimism bias)",
+          "Expected Benefits": "£495M over 10 years (quantified + risk avoidance)",
+          "NPV": "+£5.1M (conservative); +£95M (with strategic benefits)",
+          "BCR": "1.1:1 (quantified); ~1.5:1 (including strategic)",
+          "Payback": "~42 months",
+          "Stakeholder Goals Met": "10 of 10 (100%)",
+          "Risks": "1 Critical (R-002), 1 High (R-001), 18 Medium/Low",
+          "Affordability": "Within MoJ SR settlement (14% of technology budget)"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-SOW-v1.0": {
         "type": "SOW",
@@ -1080,7 +2917,191 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SOW-v1.0",
+          "Document Type": "Statement of Work / Request for Proposal",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-03-06",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "MoJ Commercial, MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Programme Board",
+          "BR-001": "Reduce Crown Court Case Backlog",
+          "BR-002": "Deploy AI for Prosecution Case Preparation and Disclosure",
+          "BR-003": "Deliver Defence Equality of Arms in Technology",
+          "BR-004": "Achieve Cross-Agency Digital Interoperability",
+          "BR-005": "Migrate Critical Legacy Applications",
+          "BR-006": "Establish AI Governance Framework",
+          "BR-007": "Improve Victim and Witness Experience",
+          "BR-008": "Secure Green Book Business Case Approval",
+          "BR-009": "Comply with GDS Service Standard and TCoP",
+          "BR-010": "Ensure Data Protection Compliance",
+          "FR-001": "AI Disclosure Review Engine",
+          "FR-002": "AI Case Summarisation",
+          "FR-003": "AI Transcription and Translation",
+          "FR-004": "Cross-Agency API Gateway",
+          "FR-005": "Digital Case File Standard",
+          "FR-006": "Court Case Management Enhancement",
+          "FR-007": "Victim/Witness Case Tracking Service",
+          "FR-008": "Remote Evidence Facilities",
+          "FR-009": "Defence Technology Platform",
+          "FR-010": "Legacy Application Assessment Dashboard",
+          "FR-011": "AI Governance Register",
+          "FR-012": "Sentence Data Integration",
+          "FR-013": "Automated Victims' Code Compliance Monitoring",
+          "FR-014": "Benefits Realisation Tracking",
+          "INT-001": "Common Platform (HMCTS)",
+          "INT-002": "Police Case Management Systems (43 forces)",
+          "INT-003": "CPS Case Management System",
+          "INT-004": "HMPPS (Prison and Probation)",
+          "INT-005": "Legal Aid Agency",
+          "INT-006": "ICO DPIA Register",
+          "DR-001": "Criminal Case Record",
+          "DR-002": "Digital Evidence Package",
+          "DR-003": "Defendant Record",
+          "DR-004": "Victim/Witness Record",
+          "High-Level Design (HLD)": "Architecture overview, component diagrams, technology stack, integration approach, security architecture",
+          "Detailed Design (DLD)": "Component specifications, API contracts (OpenAPI), data models, security controls, deployment topology",
+          "Security Design": "Threat model, NCSC CAF mapping, security controls, pen testing plan",
+          "AI Design": "AI model selection, training approach, bias mitigation strategy, explainability architecture, ATRS draft",
+          "Test Strategy": "Unit, integration, performance, security, accessibility, and contract testing approach",
+          "Data Migration Strategy": "Per-application migration plan, data mapping, reconciliation approach, rollback procedures",
+          "Source Code": "All application source code with documentation",
+          "Infrastructure as Code": "All infrastructure defined in code (Terraform/CloudFormation equivalent)",
+          "Database Schemas": "DDL scripts, migration scripts, seed data",
+          "API Documentation": "Full API reference with examples for all cross-agency interfaces",
+          "Unit Tests": "Automated unit tests",
+          "Integration Tests": "Automated integration tests including cross-agency API contract tests",
+          "Security Tests": "SAST, DAST, dependency scanning results",
+          "Accessibility Tests": "WCAG 2.2 AA automated and manual test results",
+          "Deployed Application": "Fully functional application in production",
+          "CI/CD Pipeline": "Automated build, test, deploy pipeline with quality gates",
+          "Monitoring & Alerting": "Dashboards, alerts, SLO/SLI definitions, business metrics",
+          "Runbooks": "Operational procedures for common tasks, incidents, and DR",
+          "Disaster Recovery Plan": "DR procedures, tested and documented",
+          "Technical Documentation": "Architecture, design decisions (ADRs), component docs",
+          "Operations Manual": "System administration, maintenance procedures",
+          "User Manuals": "End-user documentation per persona (judge, prosecutor, defence, court staff, victim)",
+          "Training Materials": "Training guides and materials per user persona",
+          "ATRS Records": "Algorithmic Transparency Recording Standard records for all AI tools",
+          "DPIAs": "Data Protection Impact Assessments for all processing activities",
+          "Technical Training": "Architecture, codebase walkthrough, deployment procedures",
+          "Operations Training": "Monitoring, incident response, maintenance, DR procedures",
+          "User Training": "Per-persona training for all 8 user personas",
+          "Documentation Review": "Review all documentation for completeness and accuracy",
+          "AI Model Handover": "AI model documentation, retraining procedures, bias monitoring",
+          "Phase 1: Design & Foundation": "Months 1-6",
+          "Phase 2: Build & Pilot": "Months 7-18",
+          "Phase 3: Scale": "Months 19-36",
+          "Phase 4: Complete": "Months 37-60",
+          "Warranty & Transition": "Months 55-66",
+          "M1: Project Kickoff": "Month 1",
+          "M2: Design Approval": "Month 6",
+          "M3: AI Governance Live": "Month 9",
+          "M4: AI Pilot Go-Live": "Month 15",
+          "M5: Integration MVP": "Month 15",
+          "M6: Phase 2 Gate": "Month 18",
+          "M7: Full AI Rollout": "Month 30",
+          "M8: Police Integration": "Month 30",
+          "M9: Legacy Milestone": "Month 36",
+          "M10: Programme Completion": "Month 60",
+          "M11: Benefits Review": "Month 72",
+          "RFP Issued": "[DATE — upon approval]",
+          "Vendor Questions Due": "[DATE + 2 weeks]",
+          "Answers Published": "[DATE + 3 weeks]",
+          "Proposals Due": "[DATE + 6 weeks]",
+          "Vendor Presentations": "[DATE + 8 weeks]",
+          "Final Vendor Selection": "[DATE + 10 weeks]",
+          "Contract Negotiation": "[DATE + weeks 11-13]",
+          "Expected Project Start": "[DATE + week 14]",
+          "Technical Approach and Solution Design": "30%",
+          "Project Approach and Methodology": "15%",
+          "Team Qualifications and Experience": "20%",
+          "Relevant Experience and References": "15%",
+          "Understanding of Requirements": "5%",
+          "Social Value": "15%",
+          "TOTAL": "**100%**"
+        },
+        "reqIds": [
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-009",
+          "FR-011",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-012",
+          "FR-010",
+          "FR-007",
+          "FR-008",
+          "FR-013",
+          "FR-014",
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "BR-008",
+          "BR-009",
+          "BR-010",
+          "INT-002",
+          "DR-001",
+          "INT-001",
+          "INT-004",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-SEC-006",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-C-005",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-I-001",
+          "NFR-I-002",
+          "INT-003",
+          "INT-005",
+          "INT-006",
+          "DR-002",
+          "DR-003",
+          "DR-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-STKE-v1.0": {
         "type": "STKE",
@@ -1090,7 +3111,35 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STKE-v1.0",
+          "Document Type": "Stakeholder Drivers & Goals Analysis",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-04",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, Criminal Justice Technology Leadership"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-STORY-v1.0": {
         "type": "STORY",
@@ -1100,7 +3149,104 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-04"
+        "lastModified": "2026-02-04",
+        "version": "1.0",
+        "owner": "Enterprise Architect",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STORY-v1.0",
+          "Document Type": "Project Story",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-04",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-05-04",
+          "Owner": "Enterprise Architect",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Criminal Justice Technology Leadership, Programme Board",
+          "Author": "Enterprise Architect",
+          "Approver": "Programme Board",
+          "Session Duration": "159 minutes (2h 39m)",
+          "Average Artifact Duration": "23 minutes",
+          "Longest Phase": "Foundation (60 min)",
+          "Shortest Phase": "Documentation (5 min)",
+          "Commands Executed": "7",
+          "Artifacts Created": "7",
+          "Requirements per Minute": "0.78",
+          "Risks per Minute": "0.51",
+          "Time to First Artifact": "26 minutes",
+          "Time to Requirements": "77 minutes",
+          "Time to SOW": "159 minutes",
+          "Business Requirements (BR)": "10",
+          "Functional Requirements (FR)": "14",
+          "Non-Functional Requirements (NFR)": "26",
+          "Data Requirements (DR)": "4",
+          "Integration Requirements (INT)": "6",
+          "TOTAL": "**60**",
+          "Scope": "5 programme pillars: AI Tools, Interoperability, Legacy Migration, Victim Services, AI Governance",
+          "Requirements": "All 60 requirements (10 BR, 14 FR, 26 NFR, 4 DR, 6 INT) with traceability to stakeholder goals",
+          "Deliverables": "5 phases: Design, Development, Deployment, Documentation, Knowledge Transfer",
+          "Timeline": "5-year phased delivery, 11 milestones, stage-gate funding at each phase boundary",
+          "Vendor Qualifications": "8 mandatory (SC clearance, criminal justice experience, DPA 2018 Part 3) + 7 preferred",
+          "Evaluation": "70% Technical / 30% Cost (with 15% social value within technical)",
+          "Procurement Route": "Digital Marketplace (DOS 6 / G-Cloud 14) multi-lot strategy",
+          "Contract Terms": "Payment against milestones, 12-month warranty, Crown IP ownership, termination for convenience",
+          "ArcKit": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+          "BR": "Business Requirement",
+          "FR": "Functional Requirement",
+          "NFR": "Non-Functional Requirement (Performance, Security, Scalability, Availability, Compliance, Usability, Maintainability, Interoperability)",
+          "INT": "Integration Requirement",
+          "DR": "Data Requirement",
+          "SOBC": "Strategic Outline Business Case (Green Book 5-case model)",
+          "SOW": "Statement of Work / Request for Proposal",
+          "TCoP": "Technology Code of Practice (UK Government)",
+          "GDS": "Government Digital Service",
+          "NCSC CAF": "National Cyber Security Centre Cyber Assessment Framework",
+          "UK GDPR": "UK General Data Protection Regulation",
+          "DPA 2018 Part 3": "Data Protection Act 2018, Part 3 — Law Enforcement Processing",
+          "ATRS": "Algorithmic Transparency Recording Standard",
+          "HLD": "High-Level Design",
+          "DLD": "Detailed Design",
+          "DPIA": "Data Protection Impact Assessment",
+          "C4": "Context, Container, Component, Code (architecture diagram model)",
+          "CMDB": "Configuration Management Database",
+          "SLA": "Service Level Agreement",
+          "Wardley Map": "Strategic tool for visualising component evolution and positioning",
+          "Orange Book": "HM Treasury Management of Risk — Principles and Concepts",
+          "Green Book": "HM Treasury Central Government Guidance on Appraisal and Evaluation",
+          "DOS 6": "Digital Outcomes and Specialists Framework (6th iteration)",
+          "G-Cloud 14": "Government Cloud Framework (14th iteration)",
+          "IPA": "Infrastructure and Projects Authority",
+          "Leveson Review": "Independent Review of the Criminal Courts (2025–2026)",
+          "Common Platform": "HMCTS digital case management system",
+          "Equality of Arms": "Constitutional principle that prosecution and defence must have comparable access to resources and technology"
+        },
+        "reqIds": [
+          "BR-001",
+          "FR-001",
+          "FR-003",
+          "FR-011",
+          "FR-004",
+          "FR-005",
+          "INT-001",
+          "INT-006",
+          "FR-007",
+          "FR-013",
+          "FR-010",
+          "BR-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 286
+        }
       },
       "ARC-001-STORY-v1.1": {
         "type": "STORY",
@@ -1110,7 +3256,87 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-04",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.1",
+        "owner": "Enterprise Architect",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STORY-v1.1",
+          "Document Type": "Project Story",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-02-04",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-05-05",
+          "Owner": "Enterprise Architect",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Criminal Justice Technology Leadership, Programme Board",
+          "Author": "Enterprise Architect",
+          "Approver": "Programme Board",
+          "Session 1 Duration": "178 minutes (2h 58m)",
+          "Session 2 Duration": "13 minutes",
+          "Total Active Time": "191 minutes (3h 11m)",
+          "Calendar Duration": "~16 hours",
+          "Average Artifact Duration": "15 minutes",
+          "Longest Phase": "Strategy (46 min)",
+          "Shortest Phase": "Documentation (10 min)",
+          "Commands Executed": "11",
+          "Artifacts Created": "10",
+          "Requirements per Minute": "0.78",
+          "Risks per Minute": "0.51",
+          "Time to First Artifact": "26 minutes",
+          "Time to Requirements": "77 minutes",
+          "Time to SOW": "159 minutes",
+          "Time to Strategy": "944 minutes",
+          "Total Investment": "£281M over 5 years",
+          "CAPEX": "£181M (64%)",
+          "OPEX": "£100M (36%)",
+          "NPV": "Net Present Value",
+          "BCR": "Benefit-Cost Ratio",
+          "Payback Period": "42 months",
+          "Expected ROI": "10.5% by FY 2030/31",
+          "ATRS": "Algorithmic Transparency Recording Standard",
+          "BR": "Business Requirement",
+          "CAF": "Cyber Assessment Framework (NCSC)",
+          "CJDP": "Criminal Justice Digital Platform",
+          "CPS": "Crown Prosecution Service",
+          "DOS": "Digital Outcomes and Specialists",
+          "DR": "Data Requirement",
+          "DPIA": "Data Protection Impact Assessment",
+          "FR": "Functional Requirement",
+          "GDS": "Government Digital Service",
+          "HMCTS": "His Majesty's Courts and Tribunals Service",
+          "INT": "Integration Requirement",
+          "IPA": "Infrastructure and Projects Authority",
+          "LAA": "Legal Aid Agency",
+          "MoJ": "Ministry of Justice",
+          "NCSC": "National Cyber Security Centre",
+          "NFR": "Non-Functional Requirement",
+          "PDT": "Platform Design Toolkit",
+          "ROI": "Return on Investment",
+          "SOBC": "Strategic Outline Business Case",
+          "SOW": "Statement of Work",
+          "TCoP": "Technology Code of Practice"
+        },
+        "reqIds": [
+          "BR-1",
+          "BR-2",
+          "BR-3",
+          "NFR-SEC-1",
+          "INT-1"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-STRAT-v1.0": {
         "type": "STRAT",
@@ -1120,7 +3346,67 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-02-05",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STRAT-v1.0",
+          "Document Type": "Architecture Strategy",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-05",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-05",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Lord Chancellor, MoJ Permanent Secretary, MoJ CDIO, HMCTS CEO, DPP/CPS, Lady Chief Justice's Office, HM Treasury, NAO",
+          "Strategic Horizon": "5 Years (FY 2026/27 - FY 2030/31)",
+          "Approver": "MoJ Permanent Secretary (SRO)",
+          "Business Challenge": "77,000+ Crown Court case backlog; 37 legacy applications; fragmented cross-agency systems; victims waiting years for trial",
+          "Strategic Opportunity": "Leveson Review mandate with cross-party support; AI technology maturity; new judicial leadership on technology",
+          "Investment Horizon": "5 years, £281M total investment (£181M CAPEX, £100M OPEX)",
+          "Expected ROI": "10.5% by FY 2030/31; Payback period 42 months",
+          "Risk Appetite": "LOW for compliance/security; MEDIUM for delivery; programme cannot proceed if equality of arms (R-002) unresolved",
+          "Build vs Buy": "Hybrid",
+          "Cloud Strategy": "Cloud-Native",
+          "Vendor Strategy": "Multi-Vendor",
+          "Integration Approach": "API-First + Event-Driven",
+          "AI Deployment": "Simultaneous Prosecution-Defence",
+          "Overall": "**18%**",
+          "Foundation": "FY 2026/27 Q1-Q2",
+          "Phase 1": "FY 2026/27 Q3 - FY 2027/28 Q2",
+          "Phase 2": "FY 2027/28 Q3 - FY 2028/29 Q4",
+          "Phase 3": "FY 2029/30 - FY 2030/31",
+          "Capital Expenditure (CAPEX)": "£181M",
+          "Operational Expenditure (OPEX)": "£100M",
+          "Total Investment": "**£281M**",
+          "Total": "**£30M**",
+          "Net Present Value (NPV)": "£5.1M (conservative); £95M (with strategic benefits)",
+          "Internal Rate of Return (IRR)": "10.5%",
+          "Payback Period": "42 months (Year 4)",
+          "Benefit-Cost Ratio": "1.1:1 (quantified); 1.5:1 (including strategic)",
+          "Strategy Board": "Quarterly",
+          "Programme Board": "Monthly",
+          "Judicial AI Steering Group": "Monthly",
+          "Architecture Review Board": "Fortnightly",
+          "Defence Technology Working Group": "Monthly"
+        },
+        "reqIds": [
+          "FR-013"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-TCOP-v1.0": {
         "type": "TCOP",
@@ -1130,7 +3416,52 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-02-05",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.0",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TCOP-v1.0",
+          "Document Type": "Technology Code of Practice Review",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-02-05",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-05",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, GDS/CDDO, Programme Board"
+        },
+        "reqIds": [
+          "NFR-U-003",
+          "NFR-U-001",
+          "NFR-U-004",
+          "FR-003",
+          "FR-006",
+          "FR-009",
+          "FR-004",
+          "FR-005",
+          "NFR-S-005",
+          "NFR-D-001",
+          "FR-007",
+          "INT-001",
+          "INT-006",
+          "DR-001",
+          "DR-004",
+          "FR-008"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-TCOP-v1.1": {
         "type": "TCOP",
@@ -1140,7 +3471,52 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-02-05",
-        "lastModified": "2026-02-05"
+        "lastModified": "2026-02-05",
+        "version": "1.1",
+        "owner": "[OWNER_NAME_AND_ROLE]",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TCOP-v1.1",
+          "Document Type": "Technology Code of Practice Review",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-02-05",
+          "Last Modified": "2026-02-05",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-05-05",
+          "Owner": "[OWNER_NAME_AND_ROLE]",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, GDS/CDDO, Programme Board"
+        },
+        "reqIds": [
+          "NFR-U-003",
+          "NFR-U-001",
+          "NFR-U-004",
+          "FR-003",
+          "FR-006",
+          "FR-009",
+          "FR-004",
+          "FR-005",
+          "NFR-S-005",
+          "NFR-D-001",
+          "FR-007",
+          "INT-001",
+          "INT-006",
+          "DR-001",
+          "DR-004",
+          "FR-008"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 285
+        }
       },
       "ARC-001-WARD-001-v1.0": {
         "type": "WARD",
@@ -1150,7 +3526,75 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WARD-001-v1.0",
+          "Document Type": "Wardley Map",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-15",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, Programme Board",
+          "I: Stop Self-Harm": "Common Language",
+          "II: Context Aware": "Manage Inertia",
+          "III: Better for Less": "Do Better with Less",
+          "IV: Continuously Evolving": "Listen to Ecosystem",
+          "Legacy Trap": "Continuing to invest in 37 legacy applications rather than migrating",
+          "Premature Innovation": "Deploying AI disclosure tools before governance framework is ready",
+          "Single-play Dependence": "Relying solely on AI to reduce backlog without process reform",
+          "Open Washing": "Claiming open standards while maintaining agency-specific data silos",
+          "Everything Evolves": "LLM AI Services moving rapidly from Product to Commodity; disclosure tools will evolve",
+          "Efficiency Enables Innovation": "Commodity cloud enables rapid CJS-specific innovation above it",
+          "Higher Order Systems Create Value": "Commodity LLMs + CJS data standards → higher-order AI disclosure and governance tools",
+          "Co-evolution": "AI governance practices co-evolving with AI capability; CJS data standards co-evolving with integration platform",
+          "Inertia Can Kill": "Common Platform sunk cost bias; legacy system inertia; agency independence",
+          "Success Breeds Inertia": "Common Platform's partial success makes it harder to acknowledge remaining problems",
+          "Punctuated Equilibrium": "LLM market may shift suddenly from product to utility pricing",
+          "P[what] vs P[when]": "Direction clear (AI will transform CJS) but timing uncertain (judicial adoption speed, defence profession readiness)",
+          "Peace/War/Wonder Cycle": "CJS technology is entering a \"War\" phase as AI industrialises legal tech",
+          "AI miscarriage of justice": "AI Disclosure Review, LLM AI Services",
+          "Defence inequality challenge": "Defence Practitioner Portal, AI Disclosure Review",
+          "Common Platform sunk cost trap": "Common Platform",
+          "Cross-agency governance deadlock": "Cross-Agency Integration Platform, CJS Data Standards",
+          "Legacy migration failure": "Legacy Migration Service, 37 legacy applications",
+          "LLM vendor lock-in": "LLM AI Services",
+          "Skills gap": "AI Disclosure Review, Integration Platform, Legacy Migration",
+          "Judicial adoption resistance": "AI Governance Framework, AI Disclosure Review",
+          "Global CJS AI governance standard": "AI Governance Framework",
+          "Open CJS data standards": "Criminal Justice Data Standards",
+          "LLM commoditisation cost savings": "LLM AI Services",
+          "Defence tech market creation": "Defence Practitioner Portal",
+          "Cross-government CJS integration reuse": "Cross-Agency Integration Platform"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "BR-009",
+          "BR-010"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       },
       "ARC-001-WARD-002-v1.0": {
         "type": "WARD",
@@ -1160,7 +3604,66 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WARD-002-v1.0",
+          "Document Type": "Wardley Map",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-15",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, Programme Board",
+          "Faster Case Resolution": "0.28",
+          "Victim Witness Experience": "0.30",
+          "Defence Equality of Arms": "0.18",
+          "AI Disclosure Review": "0.25",
+          "AI Transcription Translation": "0.35",
+          "AI Case Summarisation": "0.30",
+          "Victim Case Tracker": "0.32",
+          "Cross-Agency Data Exchange": "0.28",
+          "Common Platform": "0.42",
+          "Defence Practitioner Portal": "0.22",
+          "AI Governance Framework": "0.20",
+          "Remote Evidence Facilities": "0.55",
+          "Cross-Agency Integration Platform": "0.35",
+          "Human Review Queue": "0.38",
+          "Bias Testing Framework": "0.25",
+          "CJS Data Standards": "0.28",
+          "LLM AI Services": "0.68",
+          "Security Zero Trust": "0.70",
+          "Event-Driven Messaging": "0.62",
+          "API Gateway": "0.65",
+          "Genesis → Custom": "Defence Equality of Arms, Defence Practitioner Portal, AI Governance Framework",
+          "Custom → Product": "AI Transcription, Victim Case Tracker, Cross-Agency Data Exchange, Common Platform, Cross-Agency Integration Platform",
+          "Product → Commodity": "LLM AI Services, Security Zero Trust"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       },
       "ARC-001-WCLM-001-v1.0": {
         "type": "WCLM",
@@ -1170,7 +3673,38 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WCLM-001-v1.0",
+          "Document Type": "Wardley Climate Assessment",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-15",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Programme Board, Leadership Team",
+          "WARD Document ID": "ARC-001-WARD-001-v1.0",
+          "Map Title": "Criminal Courts Technology & AI Reform — Current State & Procurement Strategy",
+          "Map Date": "2026-03-16"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       },
       "ARC-001-WDOC-v1.0": {
         "type": "WDOC",
@@ -1180,7 +3714,42 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WDOC-v1.0",
+          "Document Type": "Wardley Doctrine Assessment",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-14",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Programme Board, Leadership Team",
+          "Purpose": "Deliver fair, timely, and transparent criminal case outcomes through technology-enabled reform. Reduce 77,000+ Crown Court backlog below 50,000 within 3 years. The purpose is clearly articulated in the Leveson Review mandate and programme SOBC, but understanding varies significantly across agencies — MoJ frames it as reform, HMCTS as operational efficiency, CPS as prosecution quality, and the judiciary as independence preservation.",
+          "Landscape": "The Wardley Map (ARC-001-WARD-001-v1.0) reveals 30 components: 4 in Genesis (AI Governance, Defence Portal, Bias Testing, Defence Equality), 12 in Custom (the core CJS-specific capabilities), 6 in Product, and 8 in Commodity. The landscape is heavily left-shifted — the majority of strategic components are genesis/custom with no market equivalents. The critical convergence at Cross-Agency Data Exchange makes integration the keystone investment.",
+          "Climate": "The CJS technology landscape is entering a \"War\" phase: LLM AI services are industrialising (product → commodity within 24 months), the Leveson Review creates unprecedented political mandate for change, UK GDPR/DPA 2018 Part 3 imposes criminal-justice-specific data protection constraints, and HM Treasury requires Green Book compliance for the £281M investment. Simultaneously, the AI Playbook and ATRS requirements add a new regulatory dimension that has no precedent in criminal justice.",
+          "Leadership": "Decision-making is highly fragmented across 5+ independent organisations. MoJ CDIO provides technology strategy but has limited authority over HMCTS operations, CPS technology, or police systems. The judiciary (Lady Chief Justice, Lead Judge for AI) holds constitutional independence and effective veto over case-affecting AI. Strategy is treated as a periodic planning exercise (annual spending review cycle) rather than a continuous iterative process. The programme board is the coordination mechanism, but real decision authority is distributed."
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-010"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       },
       "ARC-001-WGAM-001-v1.0": {
         "type": "WGAM",
@@ -1190,7 +3759,47 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WGAM-001-v1.0",
+          "Document Type": "Wardley Gameplay Analysis",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-15",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, Programme Board, Leadership Team",
+          "WARD Document ID": "ARC-001-WARD-001-v1.0",
+          "Map Title": "Criminal Courts Technology & AI Reform — Current State & Procurement Strategy",
+          "Map Date": "2026-03-16",
+          "Key Components": "AI Disclosure Review (0.25), Cross-Agency Integration Platform (0.35), Defence Practitioner Portal (0.22), AI Governance Framework (0.20), LLM AI Services (0.68)",
+          "WDOC Document ID": "ARC-001-WDOC-v1.0 (Doctrine maturity: 2.1/5.0)",
+          "Open Approaches": "**Education**",
+          "Experimentation": "**Directed Investment**",
+          "Industrial Policy": "**Managing Inertia**",
+          "Education": "**Co-creation**",
+          "Refactoring": "**Managing Inertia**"
+        },
+        "reqIds": [
+          "BR-001"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       },
       "ARC-001-WVCH-001-v1.0": {
         "type": "WVCH",
@@ -1200,7 +3809,67 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-16",
-        "lastModified": "2026-03-16"
+        "lastModified": "2026-03-16",
+        "version": "1.0",
+        "owner": "MoJ Chief Digital and Information Officer",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WVCH-001-v1.0",
+          "Document Type": "Wardley Value Chain",
+          "Project": "Criminal Courts Technology & AI Reform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-16",
+          "Last Modified": "2026-03-16",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-15",
+          "Owner": "MoJ Chief Digital and Information Officer",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "MoJ Enterprise Architecture, HMCTS Digital, CPS Digital, HMPPS Digital, Programme Board",
+          "C-00 Anchor": "I",
+          "C-01 Case Process": "X",
+          "C-03 Defence Eq": "X",
+          "C-04 AI Disc": "—",
+          "C-07 Victim Track": "|",
+          "C-09 Def Portal": "| —",
+          "C-11 Disc Engine": "X",
+          "C-12 NLP Models": "I",
+          "C-16 Evid Triage": "I",
+          "C-17 Human Review": "X",
+          "C-21 Cross-Agency": "I",
+          "C-22 CJS Standards": "I",
+          "C-25 Integ Platform": "I",
+          "C-28 API Gateway": "I",
+          "C-30 LLM Services": "I",
+          "C-35 Cloud": "I",
+          "User-facing": "0.90 – 1.00",
+          "High": "0.70 – 0.89",
+          "Medium-High": "0.50 – 0.69",
+          "Medium": "0.30 – 0.49",
+          "Low": "0.10 – 0.29",
+          "Infrastructure": "0.00 – 0.09"
+        },
+        "reqIds": [
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "FR-009",
+          "FR-002",
+          "FR-004",
+          "FR-005",
+          "FR-001",
+          "FR-010"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 246
+        }
       }
     },
     "edges": [
@@ -1798,6 +4467,206 @@
         "from": "ARC-001-WVCH-001-v1.0",
         "to": "ARC-001-DPIA",
         "type": "references"
+      }
+    ]
+  },
+  "projectHealth": {
+    "baseline": "2026-11-17T10:08:08.208Z",
+    "staleThresholdDays": 90,
+    "essentialTypes": [
+      {
+        "type": "REQ",
+        "tier": 1,
+        "command": "/arckit:requirements",
+        "label": "Requirements"
+      },
+      {
+        "type": "STKE",
+        "tier": 1,
+        "command": "/arckit:stakeholders",
+        "label": "Stakeholder Analysis"
+      },
+      {
+        "type": "RISK",
+        "tier": 1,
+        "command": "/arckit:risk",
+        "label": "Risk Register"
+      },
+      {
+        "type": "SOBC",
+        "tier": 2,
+        "command": "/arckit:sobc",
+        "label": "Strategic Outline Business Case"
+      },
+      {
+        "type": "ADR",
+        "tier": 3,
+        "command": "/arckit:adr",
+        "label": "Architecture Decision Record"
+      },
+      {
+        "type": "HLDR",
+        "tier": 3,
+        "command": "/arckit:hld-review",
+        "label": "High-Level Design Review"
+      },
+      {
+        "type": "TRAC",
+        "tier": 4,
+        "command": "/arckit:traceability",
+        "label": "Traceability Matrix"
+      },
+      {
+        "type": "CONF",
+        "tier": 4,
+        "command": "/arckit:conformance",
+        "label": "Conformance Assessment"
+      }
+    ],
+    "highSeverityTypes": [
+      "TCOP",
+      "SECD",
+      "SECD-MOD",
+      "DPIA",
+      "SVCASS",
+      "RISK",
+      "TRAC",
+      "CONF",
+      "PRIN-COMP",
+      "AIPB",
+      "ATRS",
+      "JSP936"
+    ],
+    "projects": [
+      {
+        "project": "001-criminal-courts-technology-and-ai-reform",
+        "projectId": "001",
+        "artifactCount": 19,
+        "edgeCount": 119,
+        "density": 6.26,
+        "coverage": {
+          "essentialPresent": [
+            "REQ",
+            "STKE",
+            "RISK",
+            "SOBC"
+          ],
+          "essentialMissing": [
+            {
+              "type": "ADR",
+              "command": "/arckit:adr",
+              "label": "Architecture Decision Record",
+              "tier": 3
+            },
+            {
+              "type": "HLDR",
+              "command": "/arckit:hld-review",
+              "label": "High-Level Design Review",
+              "tier": 3
+            },
+            {
+              "type": "TRAC",
+              "command": "/arckit:traceability",
+              "label": "Traceability Matrix",
+              "tier": 4
+            },
+            {
+              "type": "CONF",
+              "command": "/arckit:conformance",
+              "label": "Conformance Assessment",
+              "tier": 4
+            }
+          ],
+          "essentialPct": 50,
+          "presentTypes": [
+            "ANAL",
+            "DPIA",
+            "PLAT",
+            "REQ",
+            "RISK",
+            "SOBC",
+            "SOW",
+            "STKE",
+            "STORY",
+            "STRAT",
+            "TCOP",
+            "WARD",
+            "WCLM",
+            "WDOC",
+            "WGAM",
+            "WVCH"
+          ],
+          "presentByCategory": {
+            "Governance": 2,
+            "Compliance": 2,
+            "Architecture": 6,
+            "Discovery": 2,
+            "Planning": 2,
+            "Procurement": 1,
+            "Reporting": 1
+          }
+        },
+        "compliance": {
+          "presentHigh": [
+            "TCOP",
+            "DPIA",
+            "RISK"
+          ],
+          "missingHigh": [
+            "SECD",
+            "SECD-MOD",
+            "SVCASS",
+            "TRAC",
+            "CONF",
+            "PRIN-COMP",
+            "AIPB",
+            "ATRS",
+            "JSP936"
+          ],
+          "pct": 25,
+          "total": 12
+        },
+        "health": {
+          "stale": 19,
+          "draft": 19,
+          "orphan": 0
+        },
+        "contextualSuggestions": [
+          {
+            "command": "/arckit:secure",
+            "type": "SECD",
+            "trigger": "security-sensitive system"
+          },
+          {
+            "command": "/arckit:data-model",
+            "type": "DATA",
+            "trigger": "DR-* requirements present"
+          }
+        ],
+        "hasGlobalPrin": true,
+        "recommendations": [
+          {
+            "command": "/arckit:adr",
+            "label": "Architecture Decision Record",
+            "type": "ADR",
+            "tier": 3,
+            "reason": "Tier 3 essential missing"
+          },
+          {
+            "command": "/arckit:hld-review",
+            "label": "High-Level Design Review",
+            "type": "HLDR",
+            "tier": 3,
+            "reason": "Tier 3 essential missing"
+          },
+          {
+            "command": "/arckit:traceability",
+            "label": "Traceability Matrix",
+            "type": "TRAC",
+            "tier": 4,
+            "reason": "Tier 4 essential missing"
+          }
+        ]
       }
     ]
   }
